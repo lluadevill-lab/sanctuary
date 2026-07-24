@@ -1,0 +1,2784 @@
+[
+  {
+    "slug": "ancient-s-pledge",
+    "name": "Ancient's Pledge",
+    "patch": "1.09",
+    "runes": [
+      "Ral",
+      "Ort",
+      "Tal"
+    ],
+    "level": 21,
+    "itemTypes": [
+      "Shields"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+50% Enhanced Defense",
+      "Cold Resist +43%",
+      "Fire Resist +48%",
+      "Lightning Resist +48%",
+      "Poison Resist +48%",
+      "10% of Damage Goes to Mana"
+    ]
+  },
+  {
+    "slug": "black",
+    "name": "Black",
+    "patch": "1.09",
+    "runes": [
+      "Thul",
+      "Io",
+      "Nef"
+    ],
+    "level": 35,
+    "itemTypes": [
+      "Clubs",
+      "Hammers",
+      "Maces"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+120% to Enhanced Defense",
+      "40% Chance of Crushing Blow",
+      "+200 to Attack Rating",
+      "Adds 3-14 Cold Damage for 3 Seconds",
+      "+10 to Vitality",
+      "15% Increased Attack Speed",
+      "Magic Damage Reduced by 2",
+      "Level 4 Corpse Explosion (12 Charges)",
+      "Knockback"
+    ]
+  },
+  {
+    "slug": "fury",
+    "name": "Fury",
+    "patch": "1.09",
+    "runes": [
+      "Jah",
+      "Gul",
+      "Eth"
+    ],
+    "level": 65,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+209% Enhanced Damage",
+      "40% Increased Attack Speed",
+      "Prevent Monster Heal",
+      "66% Chance of Open Wounds",
+      "33% Chance of Deadly Strike",
+      "-25% Target Defense",
+      "20% to Attack Rating",
+      "6% Life Stolen per Hit",
+      "Ignores Targets Defense",
+      "+5 to Frenzy (Barbarian only)"
+    ]
+  },
+  {
+    "slug": "holy-thunder",
+    "name": "Holy Thunder",
+    "patch": "1.09",
+    "runes": [
+      "Eth",
+      "Ral",
+      "Ort",
+      "Tal"
+    ],
+    "level": 21,
+    "itemTypes": [
+      "Scepters"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "+60% Enhanced Damage",
+      "-25% Target Defense",
+      "Adds 5-30 Fire Damage",
+      "Adds 21-110 Lightning Damage",
+      "+75 Poison Damage Over 5 Seconds",
+      "+10 to Maximum Damage",
+      "Lightning Resistance +60%",
+      "+5 to Maximum Lightning Resistance",
+      "+3 to Holy Shock (Paladin only)",
+      "Level 7 Chain Lightning (60 Charges)"
+    ]
+  },
+  {
+    "slug": "honor",
+    "name": "Honor",
+    "patch": "1.09",
+    "runes": [
+      "Amn",
+      "El",
+      "Ith",
+      "Tir",
+      "Sol"
+    ],
+    "level": 27,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "sockets": 5,
+    "class": null,
+    "attributes": [
+      "+160% Enhanced Damage",
+      "+9 to Minimum Damage",
+      "+9 to Maximum Damage",
+      "25% Deadly Strike",
+      "+250 to Attack Rating",
+      "+1 to All Skills",
+      "7% Life Stolen per Hit",
+      "+10 Replenish Life",
+      "+10 to Strength",
+      "+1 to Light Radius",
+      "+2 to Mana per Kill"
+    ]
+  },
+  {
+    "slug": "king-s-grace",
+    "name": "King's Grace",
+    "patch": "1.09",
+    "runes": [
+      "Amn",
+      "Ral",
+      "Thul"
+    ],
+    "level": 25,
+    "itemTypes": [
+      "Swords",
+      "Scepters"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+100% Enhanced Damage",
+      "+100% Damage Against Demons",
+      "+50% Damage Against Undead",
+      "Adds 5-30 Fire Damage",
+      "Adds 3-14 Cold Damage, 3 Second Duration",
+      "+150 to Attack Rating",
+      "+100 to Attack Rating Against Demons",
+      "+100 to Attack Rating Against Undead",
+      "7% Life Stolen per Hit"
+    ]
+  },
+  {
+    "slug": "leaf",
+    "name": "Leaf",
+    "patch": "1.09",
+    "runes": [
+      "Tir",
+      "Ral"
+    ],
+    "level": 19,
+    "itemTypes": [
+      "Staves (not Orbs)"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "Adds 5-30 Fire Damage",
+      "+3 to Fire Skills",
+      "+3 to Fire Bolt (Sorceress only)",
+      "+3 to Inferno (Sorceress only)",
+      "+3 to Warmth (Sorceress only)",
+      "+2 to Mana After Each Kill",
+      "+2 per Character Level to Defense (+2-198)",
+      "Cold Resist +33%"
+    ]
+  },
+  {
+    "slug": "lionheart",
+    "name": "Lionheart",
+    "patch": "1.09",
+    "runes": [
+      "Hel",
+      "Lum",
+      "Fal"
+    ],
+    "level": 41,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+20% Enhanced Damage",
+      "Requirements -15%",
+      "+25 to Strength",
+      "+10 to Energy",
+      "+20 to Vitality",
+      "+15 to Dexterity",
+      "+50 to Life",
+      "All Resistances +30"
+    ]
+  },
+  {
+    "slug": "lore",
+    "name": "Lore",
+    "patch": "1.09",
+    "runes": [
+      "Ort",
+      "Sol"
+    ],
+    "level": 27,
+    "itemTypes": [
+      "Helms"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "+1 to All Skills",
+      "+10 to Energy",
+      "+2 to Mana After Each Kill",
+      "Lightning Resist +30%",
+      "Damage Reduced by 7",
+      "+2 to Light Radius"
+    ]
+  },
+  {
+    "slug": "malice",
+    "name": "Malice",
+    "patch": "1.09",
+    "runes": [
+      "Ith",
+      "El",
+      "Eth"
+    ],
+    "level": 15,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+33% Enhanced Damage",
+      "+9 to Maximum Damage",
+      "100% Chance of Open Wounds",
+      "-25% Target Defense",
+      "-100 Monster Defense per Hit",
+      "Prevent Monster Heal",
+      "+50 to Attack Rating",
+      "Drain Life -5"
+    ]
+  },
+  {
+    "slug": "melody",
+    "name": "Melody",
+    "patch": "1.09",
+    "runes": [
+      "Shael",
+      "Ko",
+      "Nef"
+    ],
+    "level": 39,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+50% Enhanced Damage",
+      "300% Damage Against Undead",
+      "+3 to Bow and Crossbow Skills (Amazon only)",
+      "+3 to Critical Strike (Amazon only)",
+      "+3 to Dodge (Amazon only)",
+      "+3 to Slow Missiles (Amazon only)",
+      "20% Increased Attack Speed",
+      "+10 to Dexterity",
+      "Knockback"
+    ]
+  },
+  {
+    "slug": "memory",
+    "name": "Memory",
+    "patch": "1.09",
+    "runes": [
+      "Lum",
+      "Io",
+      "Sol",
+      "Eth"
+    ],
+    "level": 37,
+    "itemTypes": [
+      "Staves (not Orbs)"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "+3 to Sorceress Skill Levels",
+      "33% Faster Cast Rate",
+      "Increase Maximum Mana 20%",
+      "+3 Energy Shield (Sorceress only)",
+      "+2 Static Field (Sorceress only)",
+      "+10 to Energy",
+      "+10 to Vitality",
+      "+9 to Minimum Damage",
+      "-25% Target Defense",
+      "Magic Damage Reduced by 7",
+      "+50% Enhanced Defense"
+    ]
+  },
+  {
+    "slug": "nadir",
+    "name": "Nadir",
+    "patch": "1.09",
+    "runes": [
+      "Nef",
+      "Tir"
+    ],
+    "level": 13,
+    "itemTypes": [
+      "Helms"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "+50% Enhanced Defense",
+      "+10 to Defense",
+      "+30 Defense vs. Missile",
+      "Level 13 Cloak of Shadows (9 Charges)",
+      "+2 Mana After Each Kill",
+      "+5 to Strength",
+      "-33% Extra Gold from Monsters",
+      "-3 to Light Radius"
+    ]
+  },
+  {
+    "slug": "radiance",
+    "name": "Radiance",
+    "patch": "1.09",
+    "runes": [
+      "Nef",
+      "Sol",
+      "Ith"
+    ],
+    "level": 27,
+    "itemTypes": [
+      "Helms"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+75% Enhanced Defense",
+      "+30 Defense vs. Missiles",
+      "+10 to Energy",
+      "+10 to Vitality",
+      "15% Damage Goes to Mana",
+      "Magic Damage Reduced by 3",
+      "+33 to Mana",
+      "Damage Reduced by 7",
+      "+5 to Light Radius"
+    ]
+  },
+  {
+    "slug": "rhyme",
+    "name": "Rhyme",
+    "patch": "1.09",
+    "runes": [
+      "Shael",
+      "Eth"
+    ],
+    "level": 29,
+    "itemTypes": [
+      "Shields"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "20% Increased Chance of Blocking",
+      "40% Faster Block Rate",
+      "+25 to All Resistances",
+      "Regenerate Mana 15%",
+      "Cannot be Frozen",
+      "50% Extra Gold from Monsters",
+      "25% Better Chance of Getting Magic Items"
+    ]
+  },
+  {
+    "slug": "silence",
+    "name": "Silence",
+    "patch": "1.09",
+    "runes": [
+      "Dol",
+      "Eld",
+      "Hel",
+      "Ist",
+      "Tir",
+      "Vex"
+    ],
+    "level": 55,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "sockets": 6,
+    "class": null,
+    "attributes": [
+      "200% Enhanced Damage",
+      "+75% Damage to Undead",
+      "Requirements -20%",
+      "20% Increased Attack Speed",
+      "+50 to Attack Rating Against Undead",
+      "+2 to All Skills",
+      "All Resistances +75",
+      "20% Faster Hit Recovery",
+      "11% Mana Stolen per Hit",
+      "Hit Causes Monster to Flee 25%",
+      "Hit Blinds Target +33",
+      "+2 to Mana After Each Kill",
+      "30% Better Chance of Getting Magic Items"
+    ]
+  },
+  {
+    "slug": "smoke",
+    "name": "Smoke",
+    "patch": "1.09",
+    "runes": [
+      "Nef",
+      "Lum"
+    ],
+    "level": 37,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "+75% Enhanced Defense",
+      "+280 Defense vs. Missiles",
+      "All Resistances +50",
+      "20% Faster Hit Recovery",
+      "Level 6 Weaken (18 Charges)",
+      "+10 to Energy",
+      "-1 to Light Radius"
+    ]
+  },
+  {
+    "slug": "stealth",
+    "name": "Stealth",
+    "patch": "1.09",
+    "runes": [
+      "Tal",
+      "Eth"
+    ],
+    "level": 17,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "Magic Damage Reduced by 3",
+      "+6 to Dexterity",
+      "+15 to Maximum Stamina",
+      "Poison Resist +30%",
+      "Regenerate Mana 15%",
+      "25% Faster Run/Walk",
+      "25% Faster Cast Rate",
+      "25% Faster Hit Recovery"
+    ]
+  },
+  {
+    "slug": "steel",
+    "name": "Steel",
+    "patch": "1.09",
+    "runes": [
+      "Tir",
+      "El"
+    ],
+    "level": 13,
+    "itemTypes": [
+      "Swords",
+      "Axes",
+      "Maces"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "20% Enhanced Damage",
+      "+3 to Minimum Damage",
+      "+3 to Maximum Damage",
+      "+50 to Attack Rating",
+      "50% Chance of Open Wounds",
+      "25% Increased Attack Speed",
+      "+2 to Mana After Each Kill",
+      "+1 to Light Radius"
+    ]
+  },
+  {
+    "slug": "strength",
+    "name": "Strength",
+    "patch": "1.09",
+    "runes": [
+      "Amn",
+      "Tir"
+    ],
+    "level": 25,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "35% Enhanced Damage",
+      "25% Chance of Crushing Blow",
+      "7% Life Stolen per Hit",
+      "+2 to Mana After Each Kill",
+      "+20 to Strength",
+      "+10 to Vitality"
+    ]
+  },
+  {
+    "slug": "venom",
+    "name": "Venom",
+    "patch": "1.09",
+    "runes": [
+      "Tal",
+      "Dol",
+      "Mal"
+    ],
+    "level": 49,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "Hit Causes Monsters to Flee 25%",
+      "Prevent Monster Heal",
+      "Ignore Target's Defense",
+      "7% Mana Stolen per Hit",
+      "Level 15 Poison Explosion (27 Charges)",
+      "Level 13 Poison Nova (11 Charges)",
+      "+273 Poison Damage Over 6 Seconds"
+    ]
+  },
+  {
+    "slug": "wealth",
+    "name": "Wealth",
+    "patch": "1.09",
+    "runes": [
+      "Lem",
+      "Ko",
+      "Tir"
+    ],
+    "level": 43,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "300% Extra Gold from Monsters",
+      "100% Better Chance of Getting Magic Items",
+      "+2 to Mana after Each Kill",
+      "+10 to Dexterity"
+    ]
+  },
+  {
+    "slug": "white",
+    "name": "White",
+    "patch": "1.09",
+    "runes": [
+      "Dol",
+      "Io"
+    ],
+    "level": 35,
+    "itemTypes": [
+      "Wands"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "Hit Causes Monsters to Flee 25%",
+      "+10 to Vitality",
+      "+3 to Poison and Bone Skills (Necromancer only)",
+      "+3 to Bone Armor (Necromancer only)",
+      "+2 to Bone Spear (Necromancer only)",
+      "+4 to Skeleton Mastery (Necromancer only)",
+      "Magic Damage Reduced by 4",
+      "20% Faster Cast Rate",
+      "+13 to Mana"
+    ]
+  },
+  {
+    "slug": "zephyr",
+    "name": "Zephyr",
+    "patch": "1.09",
+    "runes": [
+      "Ort",
+      "Eth"
+    ],
+    "level": 21,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "+33% Enhanced Damage",
+      "+66 to Attack Rating",
+      "Adds 1-50 Lightning Damage",
+      "-25% Target Defense",
+      "+25 Defense",
+      "25% Faster Run/Walk",
+      "25% Increased Attack Speed",
+      "7% Chance to Cast Level 1 Twister When Struck"
+    ]
+  },
+  {
+    "slug": "beast",
+    "name": "Beast",
+    "patch": "1.10",
+    "runes": [
+      "Ber",
+      "Tir",
+      "Um",
+      "Mal",
+      "Lum"
+    ],
+    "level": 63,
+    "itemTypes": [
+      "Axes",
+      "Scepters",
+      "Hammers"
+    ],
+    "sockets": 5,
+    "class": null,
+    "attributes": [
+      "Level 9 Fanaticism Aura When Equipped",
+      "+40% Increased Attack Speed",
+      "+240-270% Enhanced Damage",
+      "20% Chance of Crushing Blow",
+      "25% Chance of Open Wounds",
+      "+3 to Werebear",
+      "+3 to Lycanthropy",
+      "Prevent Monster Heal",
+      "+25-40 to Strength",
+      "+10 to Energy",
+      "+2 to Mana after Each Kill",
+      "Level 13 Summon Grizzly(5 Charges)"
+    ]
+  },
+  {
+    "slug": "bramble",
+    "name": "Bramble",
+    "patch": "1.10",
+    "runes": [
+      "Ral",
+      "Ohm",
+      "Sur",
+      "Eth"
+    ],
+    "level": 61,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "Level 15-21 Thorns Aura When Equipped",
+      "+50% Faster Hit Recovery",
+      "+25-50% to Poison Skill Damage",
+      "+300 Defense",
+      "Increased Maximum Mana +5%",
+      "Regenerate Mana 15%",
+      "+5% to Maximum Cold Resist",
+      "Fire Resist +30%",
+      "Poison Resist +100%",
+      "+13 Life after Each Kill",
+      "Level 13 Spirit of Barbs (33 Charges)"
+    ]
+  },
+  {
+    "slug": "breath-of-the-dying",
+    "name": "Breath of the Dying",
+    "patch": "1.10",
+    "runes": [
+      "Vex",
+      "Hel",
+      "El",
+      "Eld",
+      "Zod",
+      "Eth"
+    ],
+    "level": 69,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "sockets": 6,
+    "class": null,
+    "attributes": [
+      "50% Chance to Cast Level 20 Poison Nova When You Kill An Enemy",
+      "Indestructible",
+      "+60% Increased Attack Speed",
+      "+350-400% Enhanced Damage",
+      "+200% Damage to Undead",
+      "-25% Target Defense",
+      "+50 to Attack Rating",
+      "+50 to Attack Rating Against Undead",
+      "7% Mana Stolen per Hit",
+      "12-15% Life Stolen per Hit",
+      "Prevent Monster Heal",
+      "+30 to All Attributes",
+      "+1 to Light Radius",
+      "Requirements -20%"
+    ]
+  },
+  {
+    "slug": "call-to-arms",
+    "name": "Call To Arms",
+    "patch": "1.10",
+    "runes": [
+      "Amn",
+      "Ral",
+      "Mal",
+      "Ist",
+      "Ohm"
+    ],
+    "level": 57,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "sockets": 5,
+    "class": null,
+    "attributes": [
+      "+1 to All Skills",
+      "+40% Increased Attack Speed",
+      "+250-290% Enhanced Damage",
+      "Adds 5-30 Fire Damage",
+      "7% Life Stolen pPer Hit",
+      "+2-6 to Battle Command",
+      "+1-6 to Battle Orders",
+      "+1-4 to Battle Cry",
+      "Prevent Monster Heal",
+      "Replenish Life +12",
+      "30% Better Chance of Getting Magic Items"
+    ]
+  },
+  {
+    "slug": "chains-of-honor",
+    "name": "Chains of Honor",
+    "patch": "1.10",
+    "runes": [
+      "Dol",
+      "Um",
+      "Ber",
+      "Ist"
+    ],
+    "level": 63,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "+2 to All Skills",
+      "+200% Damage to Demons",
+      "+100% Damage to Undead",
+      "8% Life Stolen per Hit",
+      "+70% Enhanced Defense",
+      "+20 to Strength",
+      "Replenish Life +7",
+      "All Resistances +65",
+      "Damage Reduced by 8%",
+      "25% Better Chance of Getting Magic Items"
+    ]
+  },
+  {
+    "slug": "chaos",
+    "name": "Chaos",
+    "patch": "1.10",
+    "runes": [
+      "Fal",
+      "Ohm",
+      "Um"
+    ],
+    "level": 57,
+    "itemTypes": [
+      "Katars"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "9% Chance to Cast Level 11 Frozen Orb on Striking",
+      "11% Chance to Cast Level 9 Charged Bolt on Striking",
+      "+35% Increased Attacked Speed",
+      "+290-340% Enhanced Damage",
+      "Adds 216-471 Magic Damage",
+      "25% Chance of Open Wounds",
+      "+1 to Whirlwind",
+      "+10 to Strength",
+      "+15 Life after Each Demon Kill"
+    ]
+  },
+  {
+    "slug": "crescent-moon",
+    "name": "Crescent Moon",
+    "patch": "1.10",
+    "runes": [
+      "Shael",
+      "Um",
+      "Tir"
+    ],
+    "level": 47,
+    "itemTypes": [
+      "Axes",
+      "Swords",
+      "Polearms"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "10% Chance to Cast Level 17 Chain Lightning on Striking",
+      "7% Chance to Cast Level 13 Static Field on Striking",
+      "+20% Increased Attack Speed",
+      "+180-220% Enhanced Damage",
+      "Ignore Target's Defense",
+      "-35% to Enemy Lightning Resistance",
+      "25% Chance of Open Wounds",
+      "+9-11 Magic Absorb",
+      "+2 to Mana After Each Kill",
+      "Level 18 Summon Spirit Wolf (30 Charges)"
+    ]
+  },
+  {
+    "slug": "delirium",
+    "name": "Delirium",
+    "patch": "1.10",
+    "runes": [
+      "Lem",
+      "Ist",
+      "Io"
+    ],
+    "level": 51,
+    "itemTypes": [
+      "Helms"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "1% Chance to Cast Level 50 Delirium When Struck",
+      "6% Chance to Cast Level 14 Mind Blast When Struck",
+      "14% Chance to Cast Level 13 Terror When Struck",
+      "11% Chance to Cast Level 18 Confuse on Striking",
+      "+2 to All Skills",
+      "+261 Defense",
+      "+10 to Vitality",
+      "50% Extra Gold from Monsters",
+      "25% Better Chance of Getting Magic Items",
+      "Level 17 Attract (60 Charges)"
+    ]
+  },
+  {
+    "slug": "doom",
+    "name": "Doom",
+    "patch": "1.10",
+    "runes": [
+      "Hel",
+      "Ohm",
+      "Um",
+      "Lo",
+      "Cham"
+    ],
+    "level": 67,
+    "itemTypes": [
+      "Axes",
+      "Polearms",
+      "Hammers"
+    ],
+    "sockets": 5,
+    "class": null,
+    "attributes": [
+      "5% Chance to Cast Level 18 Volcano on Striking",
+      "Level 12 Holy Freeze Aura When Equipped",
+      "+2 to All Skills",
+      "+45% Increased Attack Speed",
+      "+330-370% Enhanced Damage",
+      "-40-60% to Enemy Cold Resistance",
+      "20% Deadly Strike",
+      "25% Chance of Open Wounds",
+      "Prevent Monster Heal",
+      "Freezes Target +3",
+      "Requirements -20%"
+    ]
+  },
+  {
+    "slug": "duress",
+    "name": "Duress",
+    "patch": "1.10",
+    "runes": [
+      "Shael",
+      "Um",
+      "Thul"
+    ],
+    "level": 47,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+40% Faster Hit Recovery",
+      "+10-20% Enhanced Damage",
+      "+37-133 Cold Damage Over 2 Seconds",
+      "15% Chance of Crushing Blow",
+      "33% Chance of Open Wounds",
+      "+150-200% Enhanced Defense",
+      "-20% Slower Stamina Drain",
+      "Cold Resist +45%",
+      "Lightning Resist +15%",
+      "Fire Resist +15%",
+      "Poison Resist +15%"
+    ]
+  },
+  {
+    "slug": "enigma",
+    "name": "Enigma",
+    "patch": "1.10",
+    "runes": [
+      "Jah",
+      "Ith",
+      "Ber"
+    ],
+    "level": 65,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+2 to All Skills",
+      "+45% Faster Run/Walk",
+      "+1 to Teleport",
+      "+750-775 Defense",
+      "+ (0.75 Per Character Level) to Strength",
+      "Increase Maximum Life 5%",
+      "Damage Reduced by 8%",
+      "+14 Life after Each Kill",
+      "15% Damage Taken Goes to Mana",
+      "+ (1 Per Character Level) Better Chance of Getting Magic Items"
+    ]
+  },
+  {
+    "slug": "eternity",
+    "name": "Eternity",
+    "patch": "1.10",
+    "runes": [
+      "Amn",
+      "Ber",
+      "Ist",
+      "Sol",
+      "Sur"
+    ],
+    "level": 63,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "sockets": 5,
+    "class": null,
+    "attributes": [
+      "Indestructible",
+      "+260-310% Enhanced Damage",
+      "+9 to Minimum Damage",
+      "7% Life Stolen per Hit",
+      "20% Chance of Crushing Blow",
+      "Hit Blinds Target",
+      "Slows Target by 33%",
+      "Replenish Life +16",
+      "Replenish Mana 16%",
+      "Cannot Be Frozen",
+      "30% Better Chance of Getting Magic Items",
+      "Level 8 Revive (88 Charges)"
+    ]
+  },
+  {
+    "slug": "exile",
+    "name": "Exile",
+    "patch": "1.10",
+    "runes": [
+      "Vex",
+      "Ohm",
+      "Ist",
+      "Dol"
+    ],
+    "level": 57,
+    "itemTypes": [
+      "Paladin Shields (only)"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "15% Chance To Cast Level 5 Life Tap On Striking",
+      "Level 13-16 Defiance Aura When Equipped",
+      "+2 to Offensive Auras (Paladin Only)",
+      "+30% Faster Block Rate",
+      "Freezes Target",
+      "+220-260% Enhanced Defense",
+      "Replenish Life +7",
+      "+5% to Maximum Cold Resist",
+      "+5% to Maximum Fire Resist",
+      "25% Better Chance of Getting Magic Items",
+      "Repairs 1 Durability in 4 Seconds"
+    ]
+  },
+  {
+    "slug": "famine",
+    "name": "Famine",
+    "patch": "1.10",
+    "runes": [
+      "Fal",
+      "Ohm",
+      "Ort",
+      "Jah"
+    ],
+    "level": 65,
+    "itemTypes": [
+      "Axes",
+      "Hammers"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "+30% Increased Attack Speed",
+      "+320-370% Enhanced Damage",
+      "Ignore Target's Defense",
+      "Adds 180-200 Magic Damage",
+      "Adds 50-200 Fire Damage",
+      "Adds 51-250 Lightning Damage",
+      "Adds 50-200 Cold Damage",
+      "12% Life Stolen per Hit",
+      "Prevent Monster Heal",
+      "+10 to Strength"
+    ]
+  },
+  {
+    "slug": "gloom",
+    "name": "Gloom",
+    "patch": "1.10",
+    "runes": [
+      "Fal",
+      "Um",
+      "Pul"
+    ],
+    "level": 47,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "15% Chance to Cast Level 3 Dim Vision When Struck",
+      "+10% Faster Hit Recovery",
+      "+200-260% Enhanced Defense",
+      "+10 to Strength",
+      "All Resistances +45",
+      "Half Freeze Duration",
+      "5% Damage Taken Goes to Mana",
+      "-3 to Light Radius"
+    ]
+  },
+  {
+    "slug": "hand-of-justice",
+    "name": "Hand of Justice",
+    "patch": "1.10",
+    "runes": [
+      "Sur",
+      "Cham",
+      "Amn",
+      "Lo"
+    ],
+    "level": 67,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "100% Chance to Cast Level 36 Blaze When You Level-Up",
+      "100% Chance to Cast Level 48 Meteor When You Die",
+      "Level 16 Holy Fire Aura When Equipped",
+      "+33% Increased Attack Speed",
+      "+280-330% Enhanced Damage",
+      "Ignore Target's Defense",
+      "7% Life Stolen per Hit",
+      "-20% to Enemy Fire Resistance",
+      "20% Deadly Strike",
+      "Hit Blinds Target",
+      "Freezes Target +3"
+    ]
+  },
+  {
+    "slug": "heart-of-the-oak",
+    "name": "Heart of the Oak",
+    "patch": "1.10",
+    "runes": [
+      "Ko",
+      "Vex",
+      "Pul",
+      "Thul"
+    ],
+    "level": 55,
+    "itemTypes": [
+      "Staves",
+      "Maces"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "+3 to All Skills",
+      "+40% Faster Cast Rate",
+      "+75% Damage to Demons",
+      "+100 to Attack Rating Against Demons",
+      "Adds 3-14 Cold Damage for 3 Seconds",
+      "7% Mana Stolen per Hit",
+      "+10 to Dexterity",
+      "Replenish Life +20",
+      "Increase Maximum Mana 15%",
+      "All Resistances +30-40",
+      "Level 4 Oak Sage (25 Charges)",
+      "Level 14 Raven (60 Charges)"
+    ]
+  },
+  {
+    "slug": "kingslayer",
+    "name": "Kingslayer",
+    "patch": "1.10",
+    "runes": [
+      "Mal",
+      "Um",
+      "Gul",
+      "Fal"
+    ],
+    "level": 53,
+    "itemTypes": [
+      "Swords",
+      "Axes"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "+30% Increased Attack Speed",
+      "+230-270% Enhanced Damage",
+      "-25% Target Defense",
+      "20% Bonus to Attack Rating",
+      "33% Chance of Crushing Blow",
+      "50% Chance of Open Wounds",
+      "+1 to Vengeance",
+      "Prevent Monster Heal",
+      "+10 to Strength",
+      "40% Extra Gold from Monsters"
+    ]
+  },
+  {
+    "slug": "passion",
+    "name": "Passion",
+    "patch": "1.10",
+    "runes": [
+      "Dol",
+      "Ort",
+      "Eld",
+      "Lem"
+    ],
+    "level": 43,
+    "itemTypes": [
+      "Weapons"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "+25% Increased Attack Speed",
+      "+160-210% Enhanced Damage",
+      "50-80% Bonus to Attack Rating",
+      "+75% Damage to Undead",
+      "+50 to Attack Rating Against Undead",
+      "Adds 1-50 Lightning Damage",
+      "+1 to Berserk",
+      "+1 to Zeal",
+      "Hit Blinds Target +10",
+      "Hit Causes Monster to Flee 25%",
+      "75% Extra Gold from Monsters",
+      "Level 3 Heart of Wolverine (12 Charges)"
+    ]
+  },
+  {
+    "slug": "prudence",
+    "name": "Prudence",
+    "patch": "1.10",
+    "runes": [
+      "Mal",
+      "Tir"
+    ],
+    "level": 49,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "+25% Faster Hit Recovery",
+      "+140-170% Enhanced Defense",
+      "All Resistances +25-35",
+      "Damage Reduced by 3",
+      "Magic Damage Reduced by 17",
+      "+2 to Mana after Each Kill",
+      "+1 to Light Radius",
+      "Repairs 1 Durability in 4 Seconds"
+    ]
+  },
+  {
+    "slug": "sanctuary",
+    "name": "Sanctuary",
+    "patch": "1.10",
+    "runes": [
+      "Ko",
+      "Ko",
+      "Mal"
+    ],
+    "level": 49,
+    "itemTypes": [
+      "Shields"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+20% Faster Hit Recovery",
+      "+20% Faster Block Rate",
+      "20% Increased Chance of Blocking",
+      "+130-160% Enhanced Defense",
+      "+250 Defense vs. Missile",
+      "+20 to Dexterity",
+      "All Resistances +50-70",
+      "Magic Damage Reduced by 7",
+      "Level 12 Slow Missiles (60 Charges)"
+    ]
+  },
+  {
+    "slug": "splendor",
+    "name": "Splendor",
+    "patch": "1.10",
+    "runes": [
+      "Eth",
+      "Lum"
+    ],
+    "level": 37,
+    "itemTypes": [
+      "Shields"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "+1 to all Skills",
+      "+10% Faster Cast Rate",
+      "+20% Faster Block Rate",
+      "+60-100% Enhanced Defense",
+      "+10 to Energy",
+      "Regenerate Mana 15%",
+      "50% Extra Gold from Monsters",
+      "20% Better Chance of Getting Magic items",
+      "+3 to Light Radius"
+    ]
+  },
+  {
+    "slug": "stone",
+    "name": "Stone",
+    "patch": "1.10",
+    "runes": [
+      "Shael",
+      "Um",
+      "Pul",
+      "Lum"
+    ],
+    "level": 47,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "+60% Faster Hit Recovery",
+      "+250-290% Enhanced Defense",
+      "+300 Defense Vs. Missile",
+      "+16 to Strength",
+      "+16 to Vitality",
+      "+10 to Energy",
+      "All Resistances +15",
+      "Level 16 Molten Boulder (80 Charges)",
+      "Level 16 Clay Golem (16 Charges)"
+    ]
+  },
+  {
+    "slug": "voice-of-reason",
+    "name": "Voice of Reason",
+    "patch": "1.10",
+    "runes": [
+      "Lem",
+      "Ko",
+      "El",
+      "Eld"
+    ],
+    "level": 43,
+    "itemTypes": [
+      "Swords",
+      "Maces"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "15% Chance to Cast Level 13 Frozen Orb on Striking",
+      "18% Chance to Cast Level 20 Ice Blast on Striking",
+      "+50 to Attack Rating",
+      "+220-350% Damage to Demons",
+      "+355-375% Damage to Undead",
+      "+50 to Attack Rating Against Undead",
+      "Adds 100-220 Cold Damage",
+      "-24% to Enemy Cold Resistance",
+      "+10 to Dexterity",
+      "Cannot Be Frozen",
+      "75% Extra Gold from Monsters",
+      "+1 to Light Radius"
+    ]
+  },
+  {
+    "slug": "wind",
+    "name": "Wind",
+    "patch": "1.10",
+    "runes": [
+      "Sur",
+      "El"
+    ],
+    "level": 61,
+    "itemTypes": [
+      "Melee Weapons"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "10% Chance to cast Level 9 Tornado on Striking",
+      "+20% Faster Run/Walk",
+      "+40% Increased Attack Speed",
+      "+15% Faster Hit Recovery",
+      "+120-160% Enhanced Damage",
+      "-50% Target Defense",
+      "+50 to Attack Rating",
+      "Hit Blinds Target",
+      "+1 to Light Radius",
+      "Level 13 Twister (127 Charges)"
+    ]
+  },
+  {
+    "slug": "wrath",
+    "name": "Wrath",
+    "patch": "1.10",
+    "runes": [
+      "Pul",
+      "Lum",
+      "Ber",
+      "Mal"
+    ],
+    "level": 63,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "30% Chance to Cast Level 1 Decrepify on Striking",
+      "5% Chance to Cast Level 10 Life Tap on Striking",
+      "+375% Damage to Demons",
+      "+100 to Attack Rating Against Demons",
+      "+250-300% Damage to Undead",
+      "Adds 85-120 Magic Damage",
+      "Adds 41-240 Lightning Damage",
+      "20% Chance of Crushing Blow",
+      "Prevent Monster Heal",
+      "+10 to Energy",
+      "Cannot Be Frozen"
+    ]
+  },
+  {
+    "slug": "brand",
+    "name": "Brand",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Jah",
+      "Lo",
+      "Mal",
+      "Gul"
+    ],
+    "level": 65,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "35% Chance to Cast Level 14 Amplify Damage When Struck",
+      "100% Chance to Cast Level 18 Bone Spear on Striking",
+      "Fires Explosive Arrows or Bolts",
+      "+260-340% Enhanced Damage",
+      "Ignore Target's Defense",
+      "20% Bonus to Attack Rating",
+      "+280-330% Damage to Demons",
+      "20% Deadly Strike",
+      "Prevent Monster Heal",
+      "Knockback"
+    ]
+  },
+  {
+    "slug": "death",
+    "name": "Death",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Hel",
+      "El",
+      "Vex",
+      "Ort",
+      "Gul"
+    ],
+    "level": 55,
+    "itemTypes": [
+      "Swords",
+      "Axes"
+    ],
+    "sockets": 5,
+    "class": null,
+    "attributes": [
+      "100% Chance to Cast Level 44 Chain Lightning when you die",
+      "25% Chance to Cast Level 18 Glacial Spike on Attack",
+      "Indestructible",
+      "+300-385% Enhanced Damage",
+      "20% Bonus to Attack Rating",
+      "+50 to Attack Rating",
+      "Adds 1-50 Lightning Damage",
+      "7% Mana Stolen per Hit",
+      "50% Chance of Crushing Blow",
+      "+0.5 per Character Level to Deadly Strike (5-49)",
+      "+1 to Light Radius",
+      "Level 22 Blood Golem (15 Charges)",
+      "Requirements -20%"
+    ]
+  },
+  {
+    "slug": "destruction",
+    "name": "Destruction",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Vex",
+      "Lo",
+      "Ber",
+      "Jah",
+      "Ko"
+    ],
+    "level": 65,
+    "itemTypes": [
+      "Polearms",
+      "Swords"
+    ],
+    "sockets": 5,
+    "class": null,
+    "attributes": [
+      "23% Chance to Cast Level 12 Volcano on Striking",
+      "5% Chance to Cast Level 23 Molten Boulder on striking",
+      "100% Chance to cast Level 45 Meteor when you die",
+      "15% Chance to Cast Level 22 Nova on Attack",
+      "+350% Enhanced Damage",
+      "Ignore Target's Defense",
+      "Adds 100-180 Magic Damage",
+      "7% Mana Stolen per Hit",
+      "20% Chance of Crushing Blow",
+      "20% Deadly Strike",
+      "Prevent Monster Heal",
+      "+10 to Dexterity"
+    ]
+  },
+  {
+    "slug": "dragon",
+    "name": "Dragon",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Sur",
+      "Lo",
+      "Sol"
+    ],
+    "level": 61,
+    "itemTypes": [
+      "Body Armor",
+      "Shields"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "20% Chance to Cast Level 18 Venom when Struck",
+      "12% Chance to Cast Level 15 Hydra on Striking",
+      "Level 14 Holy Fire Aura when Equipped",
+      "+360 to Defense",
+      "+230 Defense vs. Missiles",
+      "+3-5 to All Attributes",
+      "+0.375 per Character Level to Strength",
+      "Increased Maximum Mana 5% (Armor only)",
+      "+50 to Mana (Shields only)",
+      "+5% To Maximum Lightning Resist",
+      "Damage Reduced by 7"
+    ]
+  },
+  {
+    "slug": "dream",
+    "name": "Dream",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Io",
+      "Jah",
+      "Pul"
+    ],
+    "level": 65,
+    "itemTypes": [
+      "Helms",
+      "Shields"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "10% Chance to Cast Level 15 Confuse when Struck",
+      "Level 15 Holy Shock Aura when Equipped",
+      "+20-30% Faster Hit Recovery",
+      "+30% Enhanced Defense",
+      "+150-220 Defense",
+      "+10 to Vitality",
+      "Increase Maximum Life 5% (Helms only)",
+      "+50 to Live (Shields only)",
+      "+0.875 per Character Level to Mana",
+      "All Resistances +5-20",
+      "15-25% Better Chance of Getting Magic Items"
+    ]
+  },
+  {
+    "slug": "edge",
+    "name": "Edge",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Tir",
+      "Tal",
+      "Amn"
+    ],
+    "level": 25,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "Level 15 Thorns Aura when Equipped",
+      "35% Increased Attack Speed",
+      "+320-380% Damage to Demons",
+      "+280% Damage to Undead",
+      "+75 Poison Damage for 5 Seconds",
+      "7% Life Stolen per Hit",
+      "Prevent Monster Heal",
+      "+5-10 to All Attributes",
+      "+2 to Mana after Each Kill",
+      "Reduces All Vendor Prices 15%"
+    ]
+  },
+  {
+    "slug": "faith",
+    "name": "Faith",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Ohm",
+      "Jah",
+      "Lem",
+      "Eld"
+    ],
+    "level": 65,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "Level 12-15 Fanaticism Aura when Equipped",
+      "+1-2 to All Skills",
+      "+330% Enhanced Damage",
+      "Ignore Target's Defense",
+      "300% Bonus to Attack Rating",
+      "+75% Damage to Undead",
+      "+50 to Attack Rating Against Undead",
+      "+120 Fire Damage",
+      "All Resistances +15",
+      "10% Reaminate as Returned",
+      "75% Extra Gold from Monsters"
+    ]
+  },
+  {
+    "slug": "fortitude",
+    "name": "Fortitude",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "El",
+      "Sol",
+      "Dol",
+      "Lo"
+    ],
+    "level": 59,
+    "itemTypes": [
+      "Weapons",
+      "Body Armor"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "20% chance to cast level 15 Chilling Armor when struck",
+      "+25% Faster Cast Rate",
+      "+300% Enhanced Damage",
+      "+200% Enhanced Defense",
+      "+9 to Minimum Damage",
+      "+50 to Attack Rating",
+      "20% Deadly Strike",
+      "Hit Causes Monsters to Flee 25%",
+      "+1-99 per Character Level to Life",
+      "Replenish Life +7",
+      "+5% to Maximum Lightning Resistance",
+      "All Resistances +25-30",
+      "12% Damage Taken Goes to Mana",
+      "+1 to Light Radius"
+    ]
+  },
+  {
+    "slug": "grief",
+    "name": "Grief",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Eth",
+      "Tir",
+      "Lo",
+      "Mal",
+      "Ral"
+    ],
+    "level": 59,
+    "itemTypes": [
+      "Swords",
+      "Axes"
+    ],
+    "sockets": 5,
+    "class": null,
+    "attributes": [
+      "35% Chance to Cast Level 15 Venom on Striking",
+      "+30-40% Increased Attack Speed",
+      "Damage +340-400",
+      "Ignore Target's Defense",
+      "-25% Target Defense",
+      "+1.875 per Character level to Damage to Demons",
+      "Adds 5-30 Fire Damage",
+      "-20-25% to Enemy Poison Resistance",
+      "20% Deadly Strike",
+      "Prevent Monster Heal",
+      "+2 to Mana after Each Kill",
+      "+10-15 Life after Each Kill"
+    ]
+  },
+  {
+    "slug": "harmony",
+    "name": "Harmony",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Tir",
+      "Ith",
+      "Sol",
+      "Ko"
+    ],
+    "level": 39,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "Level 10 Vigor Aura when Equipped",
+      "+200-275% Enhanced Damage",
+      "+9 to Minimum Damage",
+      "+9 to Maximum Damage",
+      "Adds 55-160 Lightning Damage",
+      "Adds 55-160 Fire Damage",
+      "Adds 55-160 Cold Damage",
+      "+2-6 to Valkyrie",
+      "+10 to Dexterity",
+      "Regenerate Mana 20%",
+      "+2 to Mana after Each Kill",
+      "+2 to Light Radius",
+      "Level 20 Revive (25 Charges)"
+    ]
+  },
+  {
+    "slug": "ice",
+    "name": "Ice",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Amn",
+      "Shael",
+      "Jah",
+      "Lo"
+    ],
+    "level": 65,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "100% Chance to Cast Level 40 Blizzard when you level up",
+      "25% Chance to Cast Level 22 Frost Nova on Striking",
+      "Level 18 Holy Freeze Aura when Equipped",
+      "+20% Increased Attack Speed",
+      "+140-210% Enhanced Damage",
+      "Ignore Target's Defense",
+      "+25-30% to Cold Skill Damage",
+      "-20% to Enemy Cold Resistance",
+      "7% Life Stolen per Hit",
+      "20% Deadly Strike",
+      "3.375 per Character Level Extra Gold from Monsters"
+    ]
+  },
+  {
+    "slug": "infinity",
+    "name": "Infinity",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Ber",
+      "Mal",
+      "Ber",
+      "Ist"
+    ],
+    "level": 63,
+    "itemTypes": [
+      "Polearms",
+      "Spears"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "50% Chance to Cast Level 20 Chain Lightning when you kill an enemy",
+      "Level 12 Conviction Aura when Equipped",
+      "+35% Faster Run/Walk",
+      "+255-325% Enhanced Damage",
+      "-45-55% to Enemy Lightning Resistance",
+      "40% Chance of Crushing Blow",
+      "Prevent Monster Heal",
+      "0.5 per Character Level to Vitality",
+      "30% Better Chance of Getting Magic Items",
+      "Level 21 Cyclone Armor (30 Charges)"
+    ]
+  },
+  {
+    "slug": "insight",
+    "name": "Insight",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Ral",
+      "Tir",
+      "Tal",
+      "Sol"
+    ],
+    "level": 27,
+    "itemTypes": [
+      "Polearms",
+      "Staves",
+      "Missile Weapons"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "Level 12-17 Meditation Aura when Equipped",
+      "+35% Faster Cast Rate",
+      "+200-260% Enhanced Damage",
+      "+9 to Minimum Damage",
+      "180-250% Bonus to Attack Rating",
+      "Adds 5-30 Fire Damage",
+      "+75 Poison Damage for 5 Seconds",
+      "+1-6 to Critical Strike",
+      "+5 to All Attributes",
+      "+2 to Mana after Each Kill",
+      "23% Better Chance of Getting Magic Items"
+    ]
+  },
+  {
+    "slug": "last-wish",
+    "name": "Last Wish",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Jah",
+      "Mal",
+      "Jah",
+      "Sur",
+      "Jah",
+      "Ber"
+    ],
+    "level": 65,
+    "itemTypes": [
+      "Swords",
+      "Hammers",
+      "Axes"
+    ],
+    "sockets": 6,
+    "class": null,
+    "attributes": [
+      "6% Chance to Cast Level 11 Fade when Struck",
+      "10% Chance to Cast Level 18 Life Tap on Striking",
+      "20% Chance to Cast Level 20 Charged Bolt on Attack",
+      "Level 17 Might Aura when Equipped",
+      "+330-375% Enhanced Damage",
+      "Ignore Target's Defense",
+      "60-70% Chance of Crushing Blow",
+      "Prevent Monster Heal",
+      "Hit Blinds Target",
+      "0.5% per Character Level Chance of Getting Magic Items"
+    ]
+  },
+  {
+    "slug": "lawbringer",
+    "name": "Lawbringer",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Amn",
+      "Lem",
+      "Ko"
+    ],
+    "level": 43,
+    "itemTypes": [
+      "Swords",
+      "Hammers",
+      "Scepters"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "20% Chance to Cast Level 15 Decrepify on Striking",
+      "Level 16-18 Sanctuary Aura when Equipped",
+      "-50% Target Defense",
+      "Adds 150-210 Fire Damage",
+      "Adds 130-180 Cold Damage",
+      "7% Life Stolen per Hit",
+      "Slain Monsters Rest in Peace",
+      "+200-250 Defense Against Missiles",
+      "+10 to Dexterity",
+      "75% Extra Gold from Monsters"
+    ]
+  },
+  {
+    "slug": "oath",
+    "name": "Oath",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Shael",
+      "Pul",
+      "Mal",
+      "Lum"
+    ],
+    "level": 49,
+    "itemTypes": [
+      "Swords",
+      "Axes",
+      "Maces"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "30% Chance to Cast Level 20 Bone Spirit on Striking",
+      "Indestructible",
+      "+50% Increased Attack Speed",
+      "+210-340% Enhanced Damage",
+      "+75% Damage to Demons",
+      "+100 to Attack Rating Against Demons",
+      "Prevent Monster Heal",
+      "+10 to Energy",
+      "+10-15 Magic Absorb",
+      "Level 16 Heart of Wolverine (20 Charges)",
+      "Level 17 Iron Golem (14 Charges)"
+    ]
+  },
+  {
+    "slug": "obedience",
+    "name": "Obedience",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Hel",
+      "Ko",
+      "Thul",
+      "Eth",
+      "Fal"
+    ],
+    "level": 41,
+    "itemTypes": [
+      "Polearms",
+      "Spears"
+    ],
+    "sockets": 5,
+    "class": null,
+    "attributes": [
+      "30% Chance to Cast Level 21 Enchant when you kill an enemy",
+      "40% Faster Hit Recovery",
+      "+370% Enhanced Damage",
+      "-25% Target Defense",
+      "Adds 3-14 Cold Damage for 3 Seconds",
+      "-25% to Enemy Fire Resistance",
+      "40% Chance of Crushing Blow",
+      "+200-300 Defense",
+      "+10 to Strength",
+      "+10 to Dexterity",
+      "All Resistances +20-30",
+      "Requirements -20%"
+    ]
+  },
+  {
+    "slug": "phoenix",
+    "name": "Phoenix",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Vex",
+      "Vex",
+      "Lo",
+      "Jah"
+    ],
+    "level": 65,
+    "itemTypes": [
+      "Weapons",
+      "Shields"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "100% Chance to Cast Level 40 Blaze when you level up",
+      "40% Chance to Cast Level 22 Firestorm on Striking",
+      "Level 10-15 Redemption Aura when Equipped",
+      "+350-400% Enhanced Damage",
+      "Ignores Target Defense",
+      "14% Mana Stolen per Hit",
+      "-28% to Enemy Fire Resistance",
+      "20% Deadly Strike",
+      "+350-400 Defense vs. Missiles",
+      "+15-21 Fire Absorb"
+    ]
+  },
+  {
+    "slug": "pride",
+    "name": "Pride",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Cham",
+      "Sur",
+      "Io",
+      "Lo"
+    ],
+    "level": 67,
+    "itemTypes": [
+      "Polearms",
+      "Spears"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "25% Chance to Cast Level 17 Fire Wall when Struck",
+      "Level 16-20 Concentration Aura when Equipped",
+      "260-300% Bonus to Attack Rating",
+      "+1-99% per Character Level Damage to Demons",
+      "Adds 50-280 Lightning Damage",
+      "20% Deadly Strike",
+      "Hit Blinds Target",
+      "Freezes Target +3",
+      "+10 to Vitality",
+      "Replenish Life +8",
+      "1.672% per Character Level Extra Gold from Monsters"
+    ]
+  },
+  {
+    "slug": "rift",
+    "name": "Rift",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Hel",
+      "Ko",
+      "Lem",
+      "Gul"
+    ],
+    "level": 53,
+    "itemTypes": [
+      "Polearms",
+      "Scepters"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "20% Chance to Cast Level 16 Tornado on Striking",
+      "16% Chance to Cast level 21 Frozen Orb on Attack",
+      "20% Bonus to Attack Rating",
+      "Adds 160-250 Magic Damage",
+      "Adds 60-180 Fire Damage",
+      "+5-10 to All Stats",
+      "+10 to Dexterity",
+      "38% Damage Taken Goes to Mana",
+      "75% Extra Gold from Monsters",
+      "Level 15 Iron Maiden (40 Charges)",
+      "Requirements -20%"
+    ]
+  },
+  {
+    "slug": "spirit",
+    "name": "Spirit",
+    "patch": "1.10 (Ladder)",
+    "runes": [
+      "Tal",
+      "Thul",
+      "Ort",
+      "Amn"
+    ],
+    "level": 25,
+    "itemTypes": [
+      "Swords",
+      "Shields"
+    ],
+    "sockets": 4,
+    "class": null,
+    "attributes": [
+      "+2 to All Skills",
+      "+25-35% Faster Cast Rate",
+      "+55% Faster Hit Recovery",
+      "Adds 1-50 Lightning Damage",
+      "Adds 3-14 Cold Damage, 3 Second Duration",
+      "+75 Poison Damage over 5 Seconds",
+      "7% Life Stolen per Hit",
+      "+250 Defense vs. Missiles",
+      "+22 to Vitality",
+      "+89-112 to Mana",
+      "+3-8 Magic Absorb"
+    ]
+  },
+  {
+    "slug": "bone",
+    "name": "Bone",
+    "patch": "1.11 (Ladder)",
+    "runes": [
+      "Sol",
+      "Um",
+      "Um"
+    ],
+    "level": 47,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 3,
+    "class": "Necromancer",
+    "attributes": [
+      "15% Chance to Cast Level 10 Bone Armor when Struck",
+      "15% Chance to Cast Level 10 Bone Spear on Striking",
+      "+2 to Necromancer Skill Levels",
+      "+100-150 to Mana",
+      "All Resistances +30",
+      "Damage Reduced by 7"
+    ]
+  },
+  {
+    "slug": "enlightenment",
+    "name": "Enlightenment",
+    "patch": "1.11 (Ladder)",
+    "runes": [
+      "Pul",
+      "Ral",
+      "Sol"
+    ],
+    "level": 45,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 3,
+    "class": "Sorceress",
+    "attributes": [
+      "5% Chance to Cast Level 15 Blaze when Struck",
+      "5% Chance to Cast Level 15 Fire Ball on Striking",
+      "+2 to Sorceress Skill Levels",
+      "+1 to Warmth",
+      "+30% Enhanced Defense",
+      "Fire Resist +30%",
+      "Damage Reduced by 7"
+    ]
+  },
+  {
+    "slug": "myth",
+    "name": "Myth",
+    "patch": "1.11 (Ladder)",
+    "runes": [
+      "Hel",
+      "Amn",
+      "Nef"
+    ],
+    "level": 24,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 3,
+    "class": "Barbarian",
+    "attributes": [
+      "3% Chance to Cast Level 1 Howl when Struck",
+      "10% Chance to Cast Level 1 Taunt on Striking",
+      "+2 to Barbarian Skill Levels",
+      "+30 Defense vs. Missile",
+      "Replenish Life +10",
+      "Attacker Takes Damage of 14",
+      "Requirements -15%"
+    ]
+  },
+  {
+    "slug": "peace",
+    "name": "Peace",
+    "patch": "1.11 (Ladder)",
+    "runes": [
+      "Shael",
+      "Thul",
+      "Amn"
+    ],
+    "level": 29,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 3,
+    "class": "Amazon",
+    "attributes": [
+      "4% Chance to Cast Level 5 Slow Missiles when Struck",
+      "2% Chance to Cast Level 15 Valkyrie on Striking",
+      "+2 to Amazon Skill Levels",
+      "+20% Faster Hit Recovery",
+      "+2 to Critical Strike",
+      "Cold Resist +30%",
+      "Attacker Takes Damage of 14"
+    ]
+  },
+  {
+    "slug": "principle",
+    "name": "Principle",
+    "patch": "1.11 (Ladder)",
+    "runes": [
+      "Ral",
+      "Gul",
+      "Eld"
+    ],
+    "level": 53,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 3,
+    "class": "Paladin",
+    "attributes": [
+      "100% Chance to Cast Level 5 Holy Bolt on Striking",
+      "+2 to Paladin Skill Levels",
+      "+50% Damage to Undead",
+      "+100-150 to Life",
+      "15% Slower Stamina Drain",
+      "+5% to Maximum Poison Resist",
+      "Fire Resist +30%"
+    ]
+  },
+  {
+    "slug": "rain",
+    "name": "Rain",
+    "patch": "1.11 (Ladder)",
+    "runes": [
+      "Ort",
+      "Mal",
+      "Ith"
+    ],
+    "level": 49,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 3,
+    "class": "Druid",
+    "attributes": [
+      "5% Chance to Cast Level 15 Cyclone Armor when Struck",
+      "5% Chance to Cast Level 15 Twister on Striking",
+      "+2 to Druid Skills",
+      "+100-150 to Mana",
+      "Lightning Resist +30%",
+      "Magic Damage Reduced by 7",
+      "15% Damage Taken Goes To Mana"
+    ]
+  },
+  {
+    "slug": "treachery",
+    "name": "Treachery",
+    "patch": "1.11 (Ladder)",
+    "runes": [
+      "Shael",
+      "Thul",
+      "Lem"
+    ],
+    "level": 43,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 3,
+    "class": "Assassin",
+    "attributes": [
+      "5% Chance to Cast Level 15 Fade when Struck",
+      "25% Chance to Cast Level 15 Venom on Striking",
+      "+2 to Assassin Skill Levels",
+      "+45% Increased Attack Speed",
+      "+20% Faster Hit Recovery",
+      "Cold Resist +30%",
+      "50% Extra Gold from Monsters"
+    ]
+  },
+  {
+    "slug": "flickering-flame",
+    "name": "Flickering Flame",
+    "patch": "2.4 (Ladder)",
+    "runes": [
+      "Nef",
+      "Pul",
+      "Vex"
+    ],
+    "level": 55,
+    "itemTypes": [
+      "Helms"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "Level 4-8 Resist Fire Aura when Equipped",
+      "+3 to Fire Skills",
+      "-10-15% to Enemy Fire Resistance",
+      "+30% Enhanced Defense",
+      "+30 Defense vs. Missiles",
+      "+50-75 to Mana",
+      "Half Freeze Duration",
+      "+5% to Maximum Fire Resist",
+      "Poison Length Reduced by 50%"
+    ]
+  },
+  {
+    "slug": "mist",
+    "name": "Mist",
+    "patch": "2.4 (Ladder)",
+    "runes": [
+      "Cham",
+      "Shael",
+      "Gul",
+      "Thul",
+      "Ith"
+    ],
+    "level": 67,
+    "itemTypes": [
+      "Missile Weapons"
+    ],
+    "sockets": 5,
+    "class": null,
+    "attributes": [
+      "Level 8-12 Concentration Aura when Equipped",
+      "+3 to All Skills",
+      "+20% Increased Attack Speed",
+      "+100% Piercing Attack",
+      "+325-375% Enhanced Damage",
+      "+9 to Maximum Damage",
+      "20% Bonus to Attack Rating",
+      "Adds 3-14 Cold Damage",
+      "Freezes Target +3",
+      "+24 to Vitality",
+      "All Resistances +40"
+    ]
+  },
+  {
+    "slug": "obsession",
+    "name": "Obsession",
+    "patch": "2.4 (Ladder)",
+    "runes": [
+      "Zod",
+      "Ist",
+      "Lem",
+      "Lum",
+      "Io",
+      "Nef"
+    ],
+    "level": 69,
+    "itemTypes": [
+      "Staves"
+    ],
+    "sockets": 6,
+    "class": null,
+    "attributes": [
+      "Indestructible",
+      "24% Chance to Cast Level 10 Weaken when Struck",
+      "+4 to All Skills",
+      "+65% Faster Cast Rate",
+      "+60% Faster Hit Recovery",
+      "Knockback",
+      "+10 to Vitality",
+      "+10 to Energy",
+      "Increase Maximum Life 15-25%",
+      "Regenerate Mana 15-30%",
+      "All Resistances +60-70%",
+      "75% Extra Gold from Monsters",
+      "30% Better Chance of Getting Magic Items"
+    ]
+  },
+  {
+    "slug": "pattern",
+    "name": "Pattern",
+    "patch": "2.4 (Ladder)",
+    "runes": [
+      "Tal",
+      "Ort",
+      "Thul"
+    ],
+    "level": 23,
+    "itemTypes": [
+      "Katars"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+30% Faster Block",
+      "+40-80% Enhanced Damage",
+      "10% Bonus to Attack Rating",
+      "Adds 17-62 Fire Damage",
+      "Adds 1-50 Lightning Damage",
+      "Adds 3-14 Cold Damage",
+      "+75 Poison Damage over 5 Seconds",
+      "+6 Strength",
+      "+6 Dexterity",
+      "All Resistances +15"
+    ]
+  },
+  {
+    "slug": "plague",
+    "name": "Plague",
+    "patch": "2.4 (Ladder)",
+    "runes": [
+      "Cham",
+      "Shael",
+      "Um"
+    ],
+    "level": 67,
+    "itemTypes": [
+      "Swords",
+      "Katars",
+      "Daggers"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "20% Chance to Cast Level 12 Lower Resist When Struck",
+      "25% Chance to Cast Level 15 Poison Nova on Striking",
+      "Level 13-17 Cleansing Aura When Equipped",
+      "+1-2 to All Skills",
+      "20% Increased Attack Speed",
+      "+220-320% Enhanced Damage",
+      "-23% to Enemy Poison Resistance",
+      "+0.3% Character Level to Deadly Strike",
+      "+25% Chance of Open Wounds",
+      "Freezes Target +3"
+    ]
+  },
+  {
+    "slug": "unbending-will",
+    "name": "Unbending Will",
+    "patch": "2.4 (Ladder)",
+    "runes": [
+      "Fal",
+      "Io",
+      "Ith",
+      "Eld",
+      "El",
+      "Hel"
+    ],
+    "level": 41,
+    "itemTypes": [
+      "Swords"
+    ],
+    "sockets": 6,
+    "class": null,
+    "attributes": [
+      "18% Chance to Cast Level 18 Taunt on Striking",
+      "+3 to Combat Skills (Barbarian Only)",
+      "+20-30% Increased Attack Speed",
+      "+300-350% Enhanced Damage",
+      "+9 to Maximum Damage",
+      "+50 to Attack Rating",
+      "+75% Damage to Undead",
+      "+50 Attack Rating Against Undead",
+      "8-10% Life Stolen per Hit",
+      "Prevent Monster Heal",
+      "+10 to Strength",
+      "+10 to Vitality",
+      "Damage Reduced by 8",
+      "+1 to Light Radius",
+      "Requirements -20%"
+    ]
+  },
+  {
+    "slug": "wisdom",
+    "name": "Wisdom",
+    "patch": "2.4 (Ladder)",
+    "runes": [
+      "Pul",
+      "Ith",
+      "Eld"
+    ],
+    "level": 45,
+    "itemTypes": [
+      "Helms"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+33% Piercing Attack",
+      "+15-25 Bonus to Attack Rating",
+      "4-8% Mana Stolen per Hit",
+      "+30% Enhanced Defense",
+      "+10 Energy",
+      "15% Slower Stamina Drain",
+      "Cannot be Frozen",
+      "+5 Mana after Each Kill",
+      "15% Damage Taken Goes to Mana"
+    ]
+  },
+  {
+    "slug": "bulwark",
+    "name": "Bulwark",
+    "patch": "2.6 (Ladder)",
+    "runes": [
+      "Shael",
+      "Io",
+      "Sol"
+    ],
+    "level": 35,
+    "itemTypes": [
+      "Helms"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+20% Faster Hit Recovery",
+      "+4-6% Life stolen per Hit",
+      "+75-100% Enhanced Defense",
+      "+10 of Vitality",
+      "Increase Maximum Life 5%",
+      "Replenish Life +30",
+      "Damage Reduced by 7",
+      "Physical Damage Received Reduced by 10-15%"
+    ]
+  },
+  {
+    "slug": "cure",
+    "name": "Cure",
+    "patch": "2.6 (Ladder)",
+    "runes": [
+      "Shael",
+      "Io",
+      "Tal"
+    ],
+    "level": 35,
+    "itemTypes": [
+      "Helms"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "Level 1 Cleansing Aura when Equipped",
+      "+20% Faster Hit Recovery",
+      "+75-100% Enhanced Defense",
+      "+10 to Vitality",
+      "Increase Maximum Life 5%",
+      "Poison Resist +40-60%",
+      "Poison Length Reduced by 50%"
+    ]
+  },
+  {
+    "slug": "ground",
+    "name": "Ground",
+    "patch": "2.6 (Ladder)",
+    "runes": [
+      "Shael",
+      "Io",
+      "Ort"
+    ],
+    "level": 35,
+    "itemTypes": [
+      "Helms"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+20% Faster Hit Recovery",
+      "+75-100% Enhanced Defense",
+      "+10 to Vitality",
+      "Increase Maximum Life 5%",
+      "Lightning Resist +40-60%",
+      "Lightning Absorb +10-15%"
+    ]
+  },
+  {
+    "slug": "hearth",
+    "name": "Hearth",
+    "patch": "2.6 (Ladder)",
+    "runes": [
+      "Shael",
+      "Io",
+      "Thul"
+    ],
+    "level": 35,
+    "itemTypes": [
+      "Helms"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+20% Faster Hit Recovery",
+      "+75-100% Enhanced Defense",
+      "+10 to Vitality",
+      "Increase Maximum Life 5%",
+      "Cold Resist +40-60%",
+      "Cold Absorb +10-15%",
+      "Cannot be Frozen"
+    ]
+  },
+  {
+    "slug": "hustle",
+    "name": "Hustle",
+    "patch": "2.6 (Ladder)",
+    "runes": [
+      "Shael",
+      "Ko",
+      "Eld"
+    ],
+    "level": 39,
+    "itemTypes": [
+      "Armor",
+      "Weapons"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+65% Faster Run/Walk",
+      "+40% Increased Attack Speed",
+      "+20% Faster Hit Recovery",
+      "+6 to Evade",
+      "+10 to Dexterity",
+      "50% Slower Stamina Drain",
+      "All Resistances +10"
+    ]
+  },
+  {
+    "slug": "metamorphosis",
+    "name": "Metamorphosis",
+    "patch": "2.6 (Ladder)",
+    "runes": [
+      "Io",
+      "Cham",
+      "Fal"
+    ],
+    "level": 67,
+    "itemTypes": [
+      "Helms"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "Werewolf strikes grant Mark for 180 seconds (Mark of the Wolf: +30% Bonus to Attack Rating, Increase Maximum Life 40%)",
+      "Werebear strikes grant Mark for 180 seconds (Mark of the Bear: +25% Attack Speed, Physical Damage received reduced by 20%)",
+      "+5 to Shape Shifting Skills (Druid only)",
+      "+25% Chance of Crushing Blow",
+      "+50-80% Enhanced Defense",
+      "+10 to Strength",
+      "+10 to Vitality",
+      "All Resistances +10",
+      "Cannot be Frozen"
+    ]
+  },
+  {
+    "slug": "mosaic",
+    "name": "Mosaic",
+    "patch": "2.6 (Ladder)",
+    "runes": [
+      "Mal",
+      "Gul",
+      "Amn"
+    ],
+    "level": 53,
+    "itemTypes": [
+      "Claws"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+50% chance for finishing moves to not consume charges",
+      "+2 to Martial Arts (Assassin only)",
+      "+20% Increased Attack Speed",
+      "+200-250% Enhanced Damage",
+      "+20% Bonus to Attack Rating",
+      "7% Life Steal",
+      "+8-15% to Cold Skill Damage",
+      "+8-15% to Lightning Skill Damage",
+      "+8-15% to Fire Skill Damage",
+      "Prevent Monster Heal"
+    ]
+  },
+  {
+    "slug": "temper",
+    "name": "Temper",
+    "patch": "2.6 (Ladder)",
+    "runes": [
+      "Shael",
+      "Io",
+      "Ral"
+    ],
+    "level": 35,
+    "itemTypes": [
+      "Helms"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "+20% Faster Hit Recovery",
+      "+75-100% Enhanced Defense",
+      "+10 to Vitality",
+      "Increase Maximum Life 5%",
+      "Fire Resist +40-60%",
+      "Fire Absorb +10-15%"
+    ]
+  },
+  {
+    "slug": "authority",
+    "name": "Authority",
+    "patch": "Reign of the Warlock",
+    "runes": [
+      "Hel",
+      "Shael",
+      "Ral"
+    ],
+    "level": 29,
+    "itemTypes": [
+      "Body Armor"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "2% Chance to cast level 10 Psychic Ward when struck",
+      "10% Chance to cast level 15 Miasma Chain on striking",
+      "+2 to Warlock Skills",
+      "+20% Faster Hit Recovery",
+      "+40-60% Enhanced Damage",
+      "Fire Resist +30%",
+      "Requirements -15%"
+    ]
+  },
+  {
+    "slug": "coven",
+    "name": "Coven",
+    "patch": "Reign of the Warlock",
+    "runes": [
+      "Ist",
+      "Ral",
+      "Io"
+    ],
+    "level": 51,
+    "itemTypes": [
+      "Helms"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "5% Chance to cast level 10 Sigil: Lethargy when struck",
+      "+1 to All Skills",
+      "+20% Faster Cast Rate",
+      "30-50% Enhanced Defense",
+      "+10 to Vitality",
+      "Fire Resist +30%",
+      "1-5 Life after each Kill",
+      "26-40% Better Chance of Getting Magic Items"
+    ]
+  },
+  {
+    "slug": "ritual",
+    "name": "Ritual",
+    "patch": "Reign of the Warlock",
+    "runes": [
+      "Amn",
+      "Shael",
+      "Ohm"
+    ],
+    "level": 57,
+    "itemTypes": [
+      "Daggers"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "13% Chance to cast level 1 Sigil: Death when struck",
+      "+40% Increased Attack Speed",
+      "+250-320% Enhanced Damage",
+      "200-260% Bonus to Attack Rating",
+      "150-250% Damage to Demons",
+      "7% Life stolen per hit",
+      "Slain Monsters Rest in Peace",
+      "3-5 Life after each Kill"
+    ]
+  },
+  {
+    "slug": "vigilance",
+    "name": "Vigilance",
+    "patch": "Reign of the Warlock",
+    "runes": [
+      "Dol",
+      "Gul"
+    ],
+    "level": 53,
+    "itemTypes": [
+      "Grimoires",
+      "Shields"
+    ],
+    "sockets": 2,
+    "class": null,
+    "attributes": [
+      "5% Chance to cast level 10 Ring of Fire when struck",
+      "+10% Faster Run/Walk",
+      "+30% Faster Block Rate",
+      "75-100% Enhanced Defense",
+      "20-40 to Life",
+      "Replenish Life +7",
+      "20-40 to Mana",
+      "+5% to Maximum Poison Resist",
+      "Fire Resist 25-35%"
+    ]
+  },
+  {
+    "slug": "void",
+    "name": "Void",
+    "patch": "Reign of the Warlock",
+    "runes": [
+      "Thul",
+      "Zod",
+      "Ist"
+    ],
+    "level": 69,
+    "itemTypes": [
+      "Daggers"
+    ],
+    "sockets": 3,
+    "class": null,
+    "attributes": [
+      "Indestructible",
+      "+2 to All Skills",
+      "+40% Faster Cast Rate",
+      "Adds 3-14 cold damage",
+      "10-15% to Magic Skill Damage",
+      "1-3 to Abyss",
+      "8-12 to Strength",
+      "30% Better Chance of Getting Magic Items",
+      "Level 4 Decrepify (35/35 Charges)"
+    ]
+  }
+]

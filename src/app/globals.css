@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #0a0908;
+  color: #e9dfc7;
+}
+
+body {
+  background-image:
+    radial-gradient(ellipse 1200px 800px at 50% -10%, rgba(201, 163, 74, 0.08), transparent 60%),
+    radial-gradient(ellipse 1000px 700px at 100% 100%, rgba(125, 29, 29, 0.10), transparent 60%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"),
+    #0a0908;
+  background-attachment: fixed;
+}
+
+::selection {
+  background: rgba(201, 163, 74, 0.35);
+  color: #f0cd7a;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0908;
+}
+::-webkit-scrollbar-thumb {
+  background: #332c22;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7a6531;
+}
+
+.rune-socket {
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.divider-rune {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(201, 163, 74, 0.6) 20%,
+    rgba(201, 163, 74, 0.6) 80%,
+    transparent
+  );
+}
+
+.text-glow-gold {
+  text-shadow: 0 0 18px rgba(240, 205, 122, 0.35);
+}
+
+/* focus visibility for accessibility */
+:focus-visible {
+  outline: 2px solid #f0cd7a;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
