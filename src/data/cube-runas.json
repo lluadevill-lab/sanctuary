@@ -1,0 +1,49 @@
+{
+  "union": [
+    { "from": "El", "to": "Eld", "catalyst": null },
+    { "from": "Eld", "to": "Tir", "catalyst": null },
+    { "from": "Tir", "to": "Nef", "catalyst": null },
+    { "from": "Nef", "to": "Eth", "catalyst": null },
+    { "from": "Eth", "to": "Ith", "catalyst": null },
+    { "from": "Ith", "to": "Tal", "catalyst": null },
+    { "from": "Tal", "to": "Ral", "catalyst": null },
+    { "from": "Ral", "to": "Ort", "catalyst": null },
+    { "from": "Ort", "to": "Thul", "catalyst": null },
+    { "from": "Thul", "to": "Amn", "catalyst": null },
+    { "from": "Amn", "to": "Sol", "catalyst": null },
+    { "from": "Sol", "to": "Shael", "catalyst": null },
+    { "from": "Shael", "to": "Dol", "catalyst": null },
+    { "from": "Dol", "to": "Hel", "catalyst": null },
+    { "from": "Hel", "to": "Yo", "catalyst": null },
+    { "from": "Yo", "to": "Lum", "catalyst": null },
+    { "from": "Lum", "to": "Ko", "catalyst": null },
+    { "from": "Ko", "to": "Fal", "catalyst": null },
+    { "from": "Fal", "to": "Lem", "catalyst": null },
+    { "from": "Lem", "to": "Pul", "catalyst": null },
+    { "from": "Pul", "to": "Um", "catalyst": null },
+    { "from": "Um", "to": "Mal", "catalyst": null },
+    { "from": "Mal", "to": "Ist", "catalyst": null },
+    { "from": "Ist", "to": "Gul", "catalyst": null },
+    { "from": "Gul", "to": "Vex", "catalyst": null },
+    { "from": "Vex", "to": "Ohm", "catalyst": null },
+    { "from": "Ohm", "to": "Lo", "catalyst": "Key" },
+    { "from": "Lo", "to": "Sur", "catalyst": "Key" },
+    { "from": "Sur", "to": "Ber", "catalyst": "Key" },
+    { "from": "Ber", "to": "Jah", "catalyst": "Key" },
+    { "from": "Jah", "to": "Cham", "catalyst": "Key" },
+    { "from": "Cham", "to": "Zod", "catalyst": "Key" }
+  ],
+  "splitHigh": [
+    { "from": "Ohm", "into": ["Vex", "Vex"], "catalystQty": 1, "catalyst": "Standard of Heroes" },
+    { "from": "Lo", "into": ["Ohm", "Vex"], "catalystQty": 2, "catalyst": "Standard of Heroes" },
+    { "from": "Sur", "into": ["Lo", "Ohm"], "catalystQty": 4, "catalyst": "Standard of Heroes" },
+    { "from": "Ber", "into": ["Sur", "Lo"], "catalystQty": 7, "catalyst": "Standard of Heroes" },
+    { "from": "Jah", "into": ["Ber", "Sur"], "catalystQty": 11, "catalyst": "Standard of Heroes" },
+    { "from": "Cham", "into": ["Jah", "Ber"], "catalystQty": 15, "catalyst": "Standard of Heroes" },
+    { "from": "Zod", "into": ["Cham", "Jah"], "catalystQty": 20, "catalyst": "Standard of Heroes" }
+  ],
+  "notes": {
+    "union": "Combine 2 unidades da runa 'de' no Cubo Horadrico para obter 1 unidade da runa 'para'. A partir de Ohm, tambem e necessaria 1 unidade do catalisador (Key).",
+    "splitHigh": "Runas altas (Ohm em diante) tambem podem ser divididas em duas runas de tier anterior, usando a quantidade de 'Standard of Heroes' indicada como catalisador. Este processo NAO pode ser revertido diretamente pela uniao (perde-se eficiencia)."
+  }
+}

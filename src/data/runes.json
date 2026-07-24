@@ -1,35 +1,299 @@
 [
-  { "order": 1, "name": "El", "level": 2, "weapon": "+50 to Attack Rating, +1 to Light Radius", "armorHelm": "+15 Defense, +1 to Light Radius", "shield": "+15% to Enhanced Defense, +1 to Light Radius" },
-  { "order": 2, "name": "Eld", "level": 3, "weapon": "+75% Damage to Undead, +50 to Attack Rating against Undead", "armorHelm": "+15% to Attack Rating against Undead", "shield": "7% Chance of Blocking Undead" },
-  { "order": 3, "name": "Tir", "level": 4, "weapon": "+2 to Mana after Each Kill", "armorHelm": "+2 to Mana after Each Kill", "shield": "+2 to Mana after Each Kill" },
-  { "order": 4, "name": "Nef", "level": 5, "weapon": "Knockback", "armorHelm": "+30 Defense vs. Missile", "shield": "+30 Defense vs. Missile" },
-  { "order": 5, "name": "Eth", "level": 6, "weapon": "-25% Target Defense", "armorHelm": "Regenerate Mana 15%", "shield": "Regenerate Mana 15%" },
-  { "order": 6, "name": "Ith", "level": 7, "weapon": "+9 Maximum Damage", "armorHelm": "15% Damage Taken Goes to Mana", "shield": "15% Damage Taken Goes to Mana" },
-  { "order": 7, "name": "Tal", "level": 8, "weapon": "+75 Poison Damage over 5 Seconds", "armorHelm": "Poison Resist +30%", "shield": "Poison Resist +35%" },
-  { "order": 8, "name": "Ral", "level": 9, "weapon": "Adds 5-30 Fire Damage", "armorHelm": "Fire Resist +30%", "shield": "Fire Resist +35%" },
-  { "order": 9, "name": "Ort", "level": 10, "weapon": "Adds 1-50 Lightning Damage", "armorHelm": "Lightning Resist +30%", "shield": "Lightning Resist +35%" },
-  { "order": 10, "name": "Thul", "level": 11, "weapon": "Adds 3-14 Cold Damage (3 Sec)", "armorHelm": "Cold Resist +30%", "shield": "Cold Resist +35%" },
-  { "order": 11, "name": "Amn", "level": 12, "weapon": "7% Life Stolen per Hit", "armorHelm": "Attacker Takes Damage of 14", "shield": "Attacker Takes Damage of 14" },
-  { "order": 12, "name": "Sol", "level": 13, "weapon": "+9 to Minimum Damage", "armorHelm": "Damage Reduced by 7", "shield": "Damage Reduced by 7" },
-  { "order": 13, "name": "Shael", "level": 14, "weapon": "20% Increased Attack Speed", "armorHelm": "20% Faster Hit Recovery", "shield": "20% Faster Block Rate" },
-  { "order": 14, "name": "Dol", "level": 15, "weapon": "Hit Causes Monster to Flee 25%", "armorHelm": "Replenish Life +7", "shield": "Replenish Life +7" },
-  { "order": 15, "name": "Hel", "level": 0, "weapon": "Requirements -20%", "armorHelm": "Requirements -15%", "shield": "Requirements -15%" },
-  { "order": 16, "name": "Io", "level": 35, "weapon": "+10 to Vitality", "armorHelm": "+10 to Vitality", "shield": "+10 to Vitality" },
-  { "order": 17, "name": "Lum", "level": 37, "weapon": "+10 to Energy", "armorHelm": "+10 to Energy", "shield": "+10 to Energy" },
-  { "order": 18, "name": "Ko", "level": 39, "weapon": "+10 to Dexterity", "armorHelm": "+10 to Dexterity", "shield": "+10 to Dexterity" },
-  { "order": 19, "name": "Fal", "level": 41, "weapon": "+10 to Strength", "armorHelm": "+10 to Strength", "shield": "+10 to Strength" },
-  { "order": 20, "name": "Lem", "level": 43, "weapon": "75% Extra Gold from Monsters", "armorHelm": "50% Extra Gold from Monsters", "shield": "50% Extra Gold from Monsters" },
-  { "order": 21, "name": "Pul", "level": 45, "weapon": "+75% Damage to Demons", "armorHelm": "+30% Enhanced Defense", "shield": "+30% Enhanced Defense" },
-  { "order": 22, "name": "Um", "level": 47, "weapon": "25% Chance of Open Wounds", "armorHelm": "All Resistances +15", "shield": "All Resistances +22" },
-  { "order": 23, "name": "Mal", "level": 49, "weapon": "Prevent Monster Heal", "armorHelm": "Prevent Monster Heal", "shield": "Prevent Monster Heal" },
-  { "order": 24, "name": "Ist", "level": 51, "weapon": "30% Better Chance of Getting Magic Items", "armorHelm": "25% Better Chance of Getting Magic Items", "shield": "25% Better Chance of Getting Magic Items" },
-  { "order": 25, "name": "Gul", "level": 53, "weapon": "+20% Bonus to Attack Rating", "armorHelm": "+5% to Maximum Poison Resist", "shield": "+5% to Maximum Poison Resist" },
-  { "order": 26, "name": "Vex", "level": 55, "weapon": "7% Mana Stolen per Hit", "armorHelm": "+5% to Maximum Fire Resist", "shield": "+5% to Maximum Fire Resist" },
-  { "order": 27, "name": "Ohm", "level": 57, "weapon": "+60% Enhanced Damage", "armorHelm": "+5% to Maximum Cold Resist", "shield": "+5% to Maximum Cold Resist" },
-  { "order": 28, "name": "Lo", "level": 59, "weapon": "20% Deadly Strike", "armorHelm": "+5% to Maximum Lightning Resist", "shield": "+5% to Maximum Lightning Resist" },
-  { "order": 29, "name": "Sur", "level": 61, "weapon": "-50% Target Defense", "armorHelm": "Increase Maximum Mana 5%", "shield": "+50 to Mana" },
-  { "order": 30, "name": "Ber", "level": 63, "weapon": "20% Chance of Crushing Blow", "armorHelm": "Damage Reduced by 8%", "shield": "Damage Reduced by 8%" },
-  { "order": 31, "name": "Jah", "level": 65, "weapon": "Ignore Target's Defense", "armorHelm": "Increase Maximum Life 5%", "shield": "+50 to Life" },
-  { "order": 32, "name": "Cham", "level": 67, "weapon": "Cannot Be Frozen", "armorHelm": "Cannot Be Frozen", "shield": "Cannot Be Frozen" },
-  { "order": 33, "name": "Zod", "level": 90, "weapon": "Indestructible", "armorHelm": "Indestructible", "shield": "Indestructible" }
+  {
+    "order": 1,
+    "name": "El",
+    "level": 2,
+    "weapon": "100 to Attack Rating",
+    "armorHelm": "30% Enhanced Defense",
+    "shield": "10% Enhanced Defense",
+    "image": "https://diablo2.com.br/img/armory-itens/r01.png"
+  },
+  {
+    "order": 2,
+    "name": "Eld",
+    "level": 3,
+    "weapon": "75% Damage to Undead",
+    "armorHelm": "50% Damage to Demons",
+    "shield": "7% Chance of Blocking",
+    "image": "https://diablo2.com.br/img/armory-itens/r02.png"
+  },
+  {
+    "order": 3,
+    "name": "Tir",
+    "level": 4,
+    "weapon": "5 to Mana After Each Kill",
+    "armorHelm": "5 to Mana After Each Kill",
+    "shield": "5 to Mana After Each Kill",
+    "image": "https://diablo2.com.br/img/armory-itens/r03.png"
+  },
+  {
+    "order": 4,
+    "name": "Nef",
+    "level": 5,
+    "weapon": "Knockback",
+    "armorHelm": "50 Defense vs. Missile",
+    "shield": "50 Defense vs. Missile",
+    "image": "https://diablo2.com.br/img/armory-itens/r04.png"
+  },
+  {
+    "order": 5,
+    "name": "Eth",
+    "level": 6,
+    "weapon": "-25% Target Defense",
+    "armorHelm": "Regenerate Mana 15%",
+    "shield": "Regenerate Mana 15%",
+    "image": "https://diablo2.com.br/img/armory-itens/r05.png"
+  },
+  {
+    "order": 6,
+    "name": "Ith",
+    "level": 7,
+    "weapon": "15 Magic Damage",
+    "armorHelm": "20% Damage Taken Goes to Mana",
+    "shield": "20% Damage Taken Goes to Mana",
+    "image": "https://diablo2.com.br/img/armory-itens/r06.png"
+  },
+  {
+    "order": 7,
+    "name": "Tal",
+    "level": 8,
+    "weapon": "75 Poison Damage over 2 Seconds",
+    "armorHelm": "Poison Resist 30%",
+    "shield": "Poison Resist 30%",
+    "image": "https://diablo2.com.br/img/armory-itens/r07.png"
+  },
+  {
+    "order": 8,
+    "name": "Ral",
+    "level": 9,
+    "weapon": "20-30 Fire Damage",
+    "armorHelm": "Fire Resist 30%",
+    "shield": "Fire Resist 30%",
+    "image": "https://diablo2.com.br/img/armory-itens/r08.png"
+  },
+  {
+    "order": 9,
+    "name": "Ort",
+    "level": 10,
+    "weapon": "1-60 Lightning Damage",
+    "armorHelm": "Lightning Resist 30%",
+    "shield": "Lightning Resist 30%",
+    "image": "https://diablo2.com.br/img/armory-itens/r09.png"
+  },
+  {
+    "order": 10,
+    "name": "Thul",
+    "level": 11,
+    "weapon": "20 Cold Damage",
+    "armorHelm": "Cold Resist 30%",
+    "shield": "Cold Resist 30%",
+    "image": "https://diablo2.com.br/img/armory-itens/r10.png"
+  },
+  {
+    "order": 11,
+    "name": "Amn",
+    "level": 12,
+    "weapon": "7% Life Stolen Per Hit",
+    "armorHelm": "5 Life After Each Kill",
+    "shield": "5 Life After Each Kill",
+    "image": "https://diablo2.com.br/img/armory-itens/r11.png"
+  },
+  {
+    "order": 12,
+    "name": "Sol",
+    "level": 13,
+    "weapon": "20 to Mana",
+    "armorHelm": "20 to Mana",
+    "shield": "20 to Mana",
+    "image": "https://diablo2.com.br/img/armory-itens/r12.png"
+  },
+  {
+    "order": 13,
+    "name": "Shael",
+    "level": 14,
+    "weapon": "20% Increased Attack Speed",
+    "armorHelm": "20% Faster Hit Recovery",
+    "shield": "20% Faster Block Rate",
+    "image": "https://diablo2.com.br/img/armory-itens/r13.png"
+  },
+  {
+    "order": 14,
+    "name": "Dol",
+    "level": 15,
+    "weapon": "20 to Life",
+    "armorHelm": "20 to Life",
+    "shield": "20 to Life",
+    "image": "https://diablo2.com.br/img/armory-itens/r14.png"
+  },
+  {
+    "order": 15,
+    "name": "Hel",
+    "level": 0,
+    "weapon": "Requirements -20%",
+    "armorHelm": "Requirements -15%",
+    "shield": "Requirements -15%",
+    "image": "https://diablo2.com.br/img/armory-itens/r15.png"
+  },
+  {
+    "order": 16,
+    "name": "Yo",
+    "level": 35,
+    "weapon": "10 to Vitality",
+    "armorHelm": "10 to Vitality",
+    "shield": "10 to Vitality",
+    "image": "https://diablo2.com.br/img/armory-itens/r16.png"
+  },
+  {
+    "order": 17,
+    "name": "Lum",
+    "level": 37,
+    "weapon": "10 to Energy",
+    "armorHelm": "10 to Energy",
+    "shield": "10 to Energy",
+    "image": "https://diablo2.com.br/img/armory-itens/r17.png"
+  },
+  {
+    "order": 18,
+    "name": "Ko",
+    "level": 39,
+    "weapon": "10 to Dexterity",
+    "armorHelm": "10 to Dexterity",
+    "shield": "10 to Dexterity",
+    "image": "https://diablo2.com.br/img/armory-itens/r18.png"
+  },
+  {
+    "order": 19,
+    "name": "Fal",
+    "level": 41,
+    "weapon": "10 to Strength",
+    "armorHelm": "10 to Strength",
+    "shield": "10 to Strength",
+    "image": "https://diablo2.com.br/img/armory-itens/r19.png"
+  },
+  {
+    "order": 20,
+    "name": "Lem",
+    "level": 43,
+    "weapon": "50% Extra Gold",
+    "armorHelm": "30% Extra Gold",
+    "shield": "30% Extra Gold",
+    "image": "https://diablo2.com.br/img/armory-itens/r20.png"
+  },
+  {
+    "order": 21,
+    "name": "Pul",
+    "level": 45,
+    "weapon": "75% Damage to Demons",
+    "armorHelm": "50% Enhanced Defense",
+    "shield": "50% Enhanced Defense",
+    "image": "https://diablo2.com.br/img/armory-itens/r21.png"
+  },
+  {
+    "order": 22,
+    "name": "Um",
+    "level": 47,
+    "weapon": "25% Open Wounds",
+    "armorHelm": "15 to All Resistances",
+    "shield": "22 to All Resistances",
+    "image": "https://diablo2.com.br/img/armory-itens/r22.png"
+  },
+  {
+    "order": 23,
+    "name": "Mal",
+    "level": 49,
+    "weapon": "Prevent Monster Heal",
+    "armorHelm": "Prevent Monster Heal",
+    "shield": "Prevent Monster Heal",
+    "image": "https://diablo2.com.br/img/armory-itens/r23.png"
+  },
+  {
+    "order": 24,
+    "name": "Ist",
+    "level": 51,
+    "weapon": "30% Magic Find",
+    "armorHelm": "25% Magic Find",
+    "shield": "25% Magic Find",
+    "image": "https://diablo2.com.br/img/armory-itens/r24.png"
+  },
+  {
+    "order": 25,
+    "name": "Gul",
+    "level": 53,
+    "weapon": "300 to Attack Rating",
+    "armorHelm": "5% to Maximum Poison Resist",
+    "shield": "5% to Maximum Poison Resist",
+    "image": "https://diablo2.com.br/img/armory-itens/r25.png"
+  },
+  {
+    "order": 26,
+    "name": "Vex",
+    "level": 55,
+    "weapon": "7% Mana Stolen Per Hit",
+    "armorHelm": "5% to Maximum Fire Resist",
+    "shield": "5% to Maximum Fire Resist",
+    "image": "https://diablo2.com.br/img/armory-itens/r26.png"
+  },
+  {
+    "order": 27,
+    "name": "Ohm",
+    "level": 57,
+    "weapon": "60% Enhanced Damage",
+    "armorHelm": "5% to Maximum Cold Resist",
+    "shield": "5% to Maximum Cold Resist",
+    "image": "https://diablo2.com.br/img/armory-itens/r27.png"
+  },
+  {
+    "order": 28,
+    "name": "Lo",
+    "level": 59,
+    "weapon": "20% Deadly Strike",
+    "armorHelm": "5% to Maximum Lightning Resist",
+    "shield": "5% to Maximum Lightning Resist",
+    "image": "https://diablo2.com.br/img/armory-itens/r28.png"
+  },
+  {
+    "order": 29,
+    "name": "Sur",
+    "level": 61,
+    "weapon": "-50% Target Defense",
+    "armorHelm": "Increase Maximum Mana 5%",
+    "shield": "50 to Mana",
+    "image": "https://diablo2.com.br/img/armory-itens/r29.png"
+  },
+  {
+    "order": 30,
+    "name": "Ber",
+    "level": 63,
+    "weapon": "20% Crushing Blow",
+    "armorHelm": "Damage Reduced by 8%",
+    "shield": "Damage Reduced by 8%",
+    "image": "https://diablo2.com.br/img/armory-itens/r30.png"
+  },
+  {
+    "order": 31,
+    "name": "Jah",
+    "level": 65,
+    "weapon": "Ignore Target Defense",
+    "armorHelm": "Increase Maximum Life 5%",
+    "shield": "50 to Life",
+    "image": "https://diablo2.com.br/img/armory-itens/r31.png"
+  },
+  {
+    "order": 32,
+    "name": "Cham",
+    "level": 67,
+    "weapon": "Cannot Be Frozen",
+    "armorHelm": "Cannot Be Frozen",
+    "shield": "Cannot Be Frozen",
+    "image": "https://diablo2.com.br/img/armory-itens/r32.png"
+  },
+  {
+    "order": 33,
+    "name": "Zod",
+    "level": 90,
+    "weapon": "Indestrutivel",
+    "armorHelm": "Indestrutivel",
+    "shield": "Indestrutivel",
+    "image": "https://diablo2.com.br/img/armory-itens/r33.png"
+  }
 ]
