@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function EmbeddedSite({
   src,
@@ -11,29 +11,31 @@ export default function EmbeddedSite({
 }) {
   const [loaded, setLoaded] = useState(false);
   const [timedOut, setTimedOut] = useState(false);
-  const iframeRef = useRef<HTMLIFrameElement>(null);
 
   useEffect(() => {
+    setLoaded(false);
+    setTimedOut(false);
     const timer = setTimeout(() => {
-      if (!loaded) setTimedOut(true);
-    }, 6000);
+      setTimedOut(true);
+    }, 8000);
     return () => clearTimeout(timer);
-  }, [loaded]);
+  }, [src]);
 
   return (
     <div className="relative w-full overflow-hidden rounded-lg border border-void-line bg-void-panel">
       {!loaded && (
-        <div className="flex h-[70vh] items-center justify-center gap-3 text-parchment/50">
+        <div className="absolute inset-0 z-10 flex items-center justify-center gap-3 bg-void-panel text-parchment/50">
           <span className="rune-socket h-4 w-4 animate-pulse bg-rune" />
           Carregando {title}...
         </div>
       )}
+
       {timedOut && !loaded && (
-        <div className="absolute inset-x-0 top-0 flex items-center justify-between gap-3 bg-blood/20 px-4 py-2 text-xs text-parchment/80">
+        <div className="absolute inset-x-0 top-0 z-20 flex items-center justify-between gap-3 bg-blood/20 px-4 py-2 text-xs text-parchment/80">
           <span>
             A página está demorando ou pode não permitir ser exibida dentro do app.
           </span>
-          <a
+          
             href={src}
             target="_blank"
             rel="noopener noreferrer"
@@ -43,13 +45,13 @@ export default function EmbeddedSite({
           </a>
         </div>
       )}
+
       <iframe
-        ref={iframeRef}
+        key={src}
         src={src}
         title={title}
         onLoad={() => setLoaded(true)}
-        className={`h-[80vh] w-full border-0 bg-white ${loaded ? "block" : "hidden"}`}
-        loading="lazy"
+        className="h-[80vh] w-full border-0 bg-white"
         referrerPolicy="no-referrer-when-downgrade"
       />
     </div>
