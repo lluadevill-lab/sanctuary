@@ -2,7 +2,8 @@ import { createClient } from "@/lib/supabase/server";
 import RunewordsExplorer from "@/components/RunewordsExplorer";
 import runewordsData from "@/data/runewords.json";
 import runesData from "@/data/runes.json";
-import type { Runeword, Rune } from "@/types";
+import cubeData from "@/data/cube-runas.json";
+import type { Runeword, Rune, CubeUnionRecipe, CubeSplitRecipe } from "@/types";
 
 export const metadata = { title: "Runewords | Sanctuary Codex" };
 
@@ -28,6 +29,9 @@ export default async function RunewordsPage() {
       <RunewordsExplorer
         runewords={runewordsData as Runeword[]}
         runes={runesData as Rune[]}
+        cubeData={
+          cubeData as unknown as { union: CubeUnionRecipe[]; splitHigh: CubeSplitRecipe[] }
+        }
         isLoggedIn={!!user}
       />
     </div>
