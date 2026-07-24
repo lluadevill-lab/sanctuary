@@ -5,6 +5,7 @@ import NavClient from "./NavClient";
 const LINKS = [
   { href: "/", label: "Início" },
   { href: "/runewords", label: "Runewords" },
+  { href: "/breakpoints", label: "Breakpoints" },
   { href: "/maps", label: "Mapas" },
   { href: "/library", label: "Biblioteca" },
 ];
