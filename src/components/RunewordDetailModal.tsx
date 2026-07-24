@@ -2,12 +2,15 @@
 
 import { useEffect } from "react";
 import type { Runeword } from "@/types";
+import RuneIcon from "./RuneIcon";
 
 export default function RunewordDetailModal({
   runeword,
+  runeImageMap,
   onClose,
 }: {
   runeword: Runeword;
+  runeImageMap: Record<string, string>;
   onClose: () => void;
 }) {
   useEffect(() => {
@@ -40,12 +43,7 @@ export default function RunewordDetailModal({
 
         <div className="mb-4 flex justify-center gap-2">
           {runeword.runes.map((r, i) => (
-            <span
-              key={i}
-              className="rune-socket flex h-11 w-11 items-center justify-center bg-rune/90 text-[10px] font-bold text-void shadow-rune"
-            >
-              {r}
-            </span>
+            <RuneIcon key={i} name={r} image={runeImageMap[r] ?? ""} size={44} glowing />
           ))}
         </div>
 
@@ -53,7 +51,7 @@ export default function RunewordDetailModal({
           {runeword.name}
         </h2>
         <p className="mt-1 text-center font-mono text-xs uppercase tracking-widest text-parchment/40">
-          {runeword.runes.join("")}
+          {runeword.runes.join(" + ")}
         </p>
 
         <div className="divider-rune my-4" />

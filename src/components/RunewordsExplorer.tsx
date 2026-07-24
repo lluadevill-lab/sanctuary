@@ -1,8 +1,9 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { Runeword, Rune } from "@/types";
+import type { Runeword, Rune, CubeUnionRecipe, CubeSplitRecipe } from "@/types";
 import RunewordDetailModal from "./RunewordDetailModal";
+import RuneIcon from "./RuneIcon";
 import { logRunewordView } from "@/lib/actions";
 
 type Category = "Todos" | "Armas" | "Armaduras" | "Elmos" | "Escudos";
@@ -21,18 +22,26 @@ const CATEGORIES: Category[] = ["Todos", "Armas", "Armaduras", "Elmos", "Escudos
 export default function RunewordsExplorer({
   runewords,
   runes,
+  cubeData,
   isLoggedIn,
 }: {
   runewords: Runeword[];
   runes: Rune[];
+  cubeData: { union: CubeUnionRecipe[]; splitHigh: CubeSplitRecipe[] };
   isLoggedIn: boolean;
 }) {
-  const [tab, setTab] = useState<"browse" | "calc" | "table">("browse");
+  const [tab, setTab] = useState<"browse" | "calc" | "table" | "cube">("browse");
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState<Category>("Todos");
   const [patch, setPatch] = useState<string>("Todos");
   const [selected, setSelected] = useState<Runeword | null>(null);
   const [counts, setCounts] = useState<Record<string, number>>({});
+
+  const runeImageMap = useMemo(() => {
+    const map: Record<string, string> = {};
+    runes.forEach((r) => (map[r.name] = r.image));
+    return map;
+  }, [runes]);
 
   const patches = useMemo(
     () => ["Todos", ...Array.from(new Set(runewords.map((r) => r.patch)))],
@@ -91,6 +100,9 @@ export default function RunewordsExplorer({
         <TabButton active={tab === "table"} onClick={() => setTab("table")}>
           Tabela de Runas
         </TabButton>
+        <TabButton active={tab === "cube"} onClick={() => setTab("cube")}>
+          Cubo Horadrico
+        </TabButton>
       </div>
 
       {tab === "browse" && (
@@ -138,7 +150,12 @@ export default function RunewordsExplorer({
 
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {filtered.map((rw) => (
-              <RunewordCard key={rw.slug} rw={rw} onClick={() => openDetail(rw)} />
+              <RunewordCard
+                key={rw.slug}
+                rw={rw}
+                runeImageMap={runeImageMap}
+                onClick={() => openDetail(rw)}
+              />
             ))}
           </div>
         </div>
@@ -147,8 +164,8 @@ export default function RunewordsExplorer({
       {tab === "calc" && (
         <div>
           <p className="mb-4 text-sm text-parchment/60">
-            Toque em uma runa para marcar quantas você possui. Vamos listar todas as
-            Runewords que você já pode forjar — lembre-se de inserir as runas no item
+            Toque em uma runa para marcar quantas voce possui. Vamos listar todas as
+            Runewords que voce ja pode forjar. Lembre-se de inserir as runas no item
             na ordem correta da receita.
           </p>
           <div className="mb-8 grid grid-cols-4 gap-2 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-11">
@@ -164,13 +181,7 @@ export default function RunewordsExplorer({
                       : "border-void-line bg-void-panel hover:border-gold/40"
                   }`}
                 >
-                  <span
-                    className={`rune-socket flex h-8 w-8 items-center justify-center text-[9px] font-bold ${
-                      n > 0 ? "bg-rune-glow text-void shadow-rune" : "bg-void-raised text-parchment/50"
-                    }`}
-                  >
-                    {r.name.slice(0, 2)}
-                  </span>
+                  <RuneIcon name={r.name} image={r.image} size={32} glowing={n > 0} />
                   <span className="text-[11px] text-parchment/70">{r.name}</span>
                   {n > 0 && (
                     <span className="absolute -right-1 -top-1 flex h-4 w-4 items-center justify-center rounded-full bg-gold text-[10px] font-bold text-void">
@@ -185,16 +196,21 @@ export default function RunewordsExplorer({
           <div className="divider-rune mb-6" />
 
           <h3 className="mb-3 font-display text-lg text-gold-bright">
-            Runewords Forjáveis ({forgeable.length})
+            Runewords Forjaveis ({forgeable.length})
           </h3>
           {forgeable.length === 0 ? (
             <p className="text-sm text-parchment/40">
-              Selecione as runas que você tem para ver o que pode forjar.
+              Selecione as runas que voce tem para ver o que pode forjar.
             </p>
           ) : (
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {forgeable.map((rw) => (
-                <RunewordCard key={rw.slug} rw={rw} onClick={() => openDetail(rw)} />
+                <RunewordCard
+                  key={rw.slug}
+                  rw={rw}
+                  runeImageMap={runeImageMap}
+                  onClick={() => openDetail(rw)}
+                />
               ))}
             </div>
           )}
@@ -210,7 +226,7 @@ export default function RunewordsExplorer({
                 <th className="px-3 py-2">Arma</th>
                 <th className="px-3 py-2">Armadura / Elmo</th>
                 <th className="px-3 py-2">Escudo</th>
-                <th className="px-3 py-2">Nível</th>
+                <th className="px-3 py-2">Nivel</th>
               </tr>
             </thead>
             <tbody>
@@ -221,7 +237,7 @@ export default function RunewordsExplorer({
                 >
                   <td className="px-3 py-2">
                     <div className="flex items-center gap-2 font-medium text-gold-bright">
-                      <span className="rune-socket h-5 w-5 bg-rune" />
+                      <RuneIcon name={r.name} image={r.image} size={24} />
                       {r.name}
                     </div>
                   </td>
@@ -236,8 +252,75 @@ export default function RunewordsExplorer({
         </div>
       )}
 
+      {tab === "cube" && (
+        <div>
+          <p className="mb-6 text-sm text-parchment/60">
+            Receitas do Cubo Horadrico deste servidor para unir e dividir runas. A
+            partir da Ohm, a uniao exige tambem uma unidade do catalisador indicado.
+          </p>
+
+          <h3 className="mb-3 font-display text-lg text-gold-bright">
+            Unindo Runas (2 runas iguais = 1 runa superior)
+          </h3>
+          <div className="mb-8 grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {cubeData.union.map((u, i) => (
+              <div
+                key={i}
+                className="flex items-center gap-2 rounded-md border border-void-line bg-void-panel/60 px-3 py-2 text-sm"
+              >
+                <span className="font-mono text-xs text-parchment/40">2x</span>
+                <RuneIcon name={u.from} image={runeImageMap[u.from] ?? ""} size={26} />
+                <span className="text-parchment/50">{u.from}</span>
+                {u.catalyst && (
+                  <span className="rounded bg-blood/20 px-1.5 py-0.5 text-[10px] text-blood-bright">
+                    + {u.catalyst}
+                  </span>
+                )}
+                <span className="text-gold-bright">=</span>
+                <RuneIcon name={u.to} image={runeImageMap[u.to] ?? ""} size={26} glowing />
+                <span className="font-medium text-gold-bright">{u.to}</span>
+              </div>
+            ))}
+          </div>
+
+          <h3 className="mb-3 font-display text-lg text-gold-bright">
+            Dividindo Runas Altas
+          </h3>
+          <p className="mb-4 text-xs text-parchment/40">
+            Ohm em diante tambem podem ser divididas em duas runas do tier anterior,
+            usando Standard of Heroes como catalisador (o processo nao e reversivel
+            com a mesma eficiencia).
+          </p>
+          <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {cubeData.splitHigh.map((s, i) => (
+              <div
+                key={i}
+                className="flex flex-wrap items-center gap-2 rounded-md border border-void-line bg-void-panel/60 px-3 py-2 text-sm"
+              >
+                <RuneIcon name={s.from} image={runeImageMap[s.from] ?? ""} size={26} glowing />
+                <span className="font-medium text-gold-bright">{s.from}</span>
+                <span className="rounded bg-blood/20 px-1.5 py-0.5 text-[10px] text-blood-bright">
+                  + {s.catalystQty}x {s.catalyst}
+                </span>
+                <span className="text-gold-bright">=</span>
+                {s.into.map((name, idx) => (
+                  <span key={idx} className="flex items-center gap-1">
+                    <RuneIcon name={name} image={runeImageMap[name] ?? ""} size={22} />
+                    <span className="text-parchment/60">{name}</span>
+                  </span>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {selected && (
-        <RunewordDetailModal runeword={selected} onClose={() => setSelected(null)} />
+        <RunewordDetailModal
+          runeword={selected}
+          runeImageMap={runeImageMap}
+          onClose={() => setSelected(null)}
+        />
       )}
     </div>
   );
@@ -266,7 +349,15 @@ function TabButton({
   );
 }
 
-function RunewordCard({ rw, onClick }: { rw: Runeword; onClick: () => void }) {
+function RunewordCard({
+  rw,
+  runeImageMap,
+  onClick,
+}: {
+  rw: Runeword;
+  runeImageMap: Record<string, string>;
+  onClick: () => void;
+}) {
   return (
     <button
       onClick={onClick}
@@ -278,19 +369,14 @@ function RunewordCard({ rw, onClick }: { rw: Runeword; onClick: () => void }) {
           {rw.sockets}s
         </span>
       </div>
-      <div className="flex flex-wrap gap-1">
+      <div className="flex flex-wrap items-center gap-1.5">
         {rw.runes.map((r, i) => (
-          <span
-            key={i}
-            className="rounded bg-rune/20 px-1.5 py-0.5 font-mono text-[11px] text-rune-glow"
-          >
-            {r}
-          </span>
+          <RuneIcon key={i} name={r} image={runeImageMap[r] ?? ""} size={22} />
         ))}
       </div>
       <p className="text-xs text-parchment/50">{rw.itemTypes.join(", ")}</p>
       <p className="text-xs text-parchment/40">
-        Nível {rw.level} · {rw.patch}
+        Nivel {rw.level} - {rw.patch}
       </p>
     </button>
   );
