@@ -5,6 +5,29 @@ export type Rune = {
   weapon: string;
   armorHelm: string;
   shield: string;
+  image: string;
+};
+
+export type BreakpointRow = [number, number]; // [percent, frames]
+
+export type BreakpointTable = {
+  label: string;
+  fcr: Record<string, BreakpointRow[]>;
+  fhr: Record<string, BreakpointRow[]>;
+  fbr: Record<string, BreakpointRow[]>;
+};
+
+export type CubeUnionRecipe = {
+  from: string;
+  to: string;
+  catalyst: string | null;
+};
+
+export type CubeSplitRecipe = {
+  from: string;
+  into: [string, string];
+  catalystQty: number;
+  catalyst: string;
 };
 
 export type Runeword = {
